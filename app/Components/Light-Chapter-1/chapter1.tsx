@@ -6,7 +6,7 @@ import texts from "./textFile";
 
 const TextWithPopover = () => {
   return (
-    <div className="max-w-[800px] min-h-screen mx-auto mb-10 mt-5">
+    <div className="max-w-[800px] min-h-screen mx-auto mb-10 mt-5 bg-[#fffaf1]">
       {texts.map((text, index) => (
         <div key={index} className="w-[100%] h-auto mx-2">
           {/* Render content depending on whether it has HTML */}

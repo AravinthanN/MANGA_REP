@@ -1,7 +1,7 @@
 import React from "react";
 import { Popover, PopoverContent, PopoverTrigger } from "@nextui-org/popover";
 
-const PopUp = ({ content }) => {
+const PopUp = ({ content }: { content: string }) => {
   // Split content into lines based on newline characters
   const lines = content.split("\n");
 

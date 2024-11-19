@@ -9,7 +9,7 @@ const PopUp = ({ content }: { content: string }) => {
     <Popover
       showArrow
       backdrop="opaque"
-      placement="Bottom Start"
+      placement="bottom-start"
       classNames={{
         base: ["before:bg-default-200"],
         content: [

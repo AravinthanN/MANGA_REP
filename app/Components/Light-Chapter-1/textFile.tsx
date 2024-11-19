@@ -12,11 +12,11 @@ const texts = [
     `,
   `Yet, in this silent, empty space, the laughter of a little girl could be heard. She illuminated the area with her bright smile, so bright it could outshine the sun. A beautiful black and blue butterfly sat on her head, gently moving its wings and adding to her joyful look. She was happily playing with her small sheep.`,
   `Twenty feet behind her`,
-  `#/images/choIntro.jpg`,
+  `#/public/images/choIntro.jpg`,
   ` a boy , about fifteen years old, stood in a meadow filled with flowers and butterflies. He watched his sister laugh and play while trying to cut the last log from a pile of fifty trees. Even though he was tired, he felt joy seeing her so happy. 
     But his smile slowly faded as he noticed other kids playing together while his sister was alone.
     `,
-  `#/images/TheBoyIntro.jpg`,
+  `#/public/images/TheBoyIntro.jpg`,
 
   `Far away from little girl. `,
   `people worked on their farms. A woman passed by, walking happily.`,

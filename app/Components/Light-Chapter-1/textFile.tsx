@@ -16,7 +16,7 @@ const texts = [
   ` a boy , about fifteen years old, stood in a meadow filled with flowers and butterflies. He watched his sister laugh and play while trying to cut the last log from a pile of fifty trees. Even though he was tired, he felt joy seeing her so happy. 
     But his smile slowly faded as he noticed other kids playing together while his sister was alone.
     `,
-  `#/public/images/TheBoyIntro.jpg`,
+  `#images/TheBoyIntro.jpg`,
 
   `Far away from little girl. `,
   `people worked on their farms. A woman passed by, walking happily.`,

@@ -37,7 +37,7 @@ const PopUp = ({ content }: { content: string }) => {
               <span
                 key={index}
                 style={{
-                  textAlign: "center",
+                  textAlign: "start",
                   width: "500px",
                   height: "500px",
                   display: "inline-block",

@@ -113,7 +113,7 @@ const texts = [
   `P-1: “Where did you buy this?”`,
   `other women were amazed by her beauty`,
   `The bywalker paused, confused.
-    Bywalker (Woman): “What, sister?”
+    Bywalker: “What, sister?”
     `,
   `P-1: “Your saree.”`,
   `The bywalker smiled shyly.
@@ -133,11 +133,11 @@ const texts = [
   `p-3(in jealousy tone): "why p-2 , dont we look like a ilo'ian ? `,
   `p-2: why?`,
   `p-3: nothing, just wondering,  we were working together for a being, but you didnt ask any of us for a shopping`,
-  `p-2: whyyy?.. last time we went for a shopping. you chose a shit colored saree and said it'll  look good on me, now whenever i wear it, my kids close their nose and say " eww..stinks ma "(mimicked)`,
+  `p-2: whyyy?.. last time we went for a shopping. you chose a shit colored saree and said it'll  look good on me,.... now... whenever i wear it, my kids close their nose and say " eww..stinks ma "(mimicked)`,
   `p-3: oh thats why you didnt wear it for functions,haa?.....i thought you were saving it for the big occasion`,
   `they all started laughing`,
   `p-2(snapped) : you little  ^$*^%**^** jfsgjsgjs`,
-  `The two women watched her go, puzzled.
+  `The two women watched bywalker go, puzzled.
     P-1: “Who does she call her husband? She is not married, is she?”
     P-2: “Now that you mention it… I do not know.”
     Both stared at her, confused, and said in unison:

@@ -109,8 +109,9 @@ const texts = [
   `Now he heard people talking`,
   `Far away from them. `,
   `People worked on their farms,chatting.`,
-  `A woman passed by,wearing red saree, walking happily,she looks like she is going to the fashion show.`,
+  `A woman who already looked like goddess ,with wearing that jerry colored saree ,damn... she is something that god cant even create,she looks like she is going to crush someone's heart,walked by them farm peoples`,
   `One of the farm women (P-1) called out:`,
+  `They all know eachother`,
   `P-1: “Where did you buy this?”`,
   `other women were amazed by her beauty`,
   `The bywalker paused, confused.

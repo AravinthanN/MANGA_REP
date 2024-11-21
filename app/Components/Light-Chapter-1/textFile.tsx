@@ -13,7 +13,8 @@ const texts = [
     THE NAME OF THE PLANET-  ILO
     `,
   `Yet, in this silent, empty space, the laughter of a little girl could be heard. She illuminated the area with her bright smile, so bright it could outshine the sun. A beautiful black and blue butterfly sat on her head, gently moving its wings ,a glazier flame wings and adding to her joyful look. She was happily playing with her small sheep.`,
-  `Glazier flame- like fire made of ice breeze`,
+  `**Glazier flame- like fire made of ice breeze**`,
+  `**The farm exist in between two forest**`,
   `#images/choIntro.jpg`,
   `Twenty feet behind her`,
   ` a boy , about fifteen years old, stood in a meadow filled with flowers and butterflies. He watched his sister laugh and play while trying to cut the last log from a pile of fifty trees. Even though he was tired, he felt joy seeing her so happy. 
@@ -172,15 +173,15 @@ const texts = [
   `Bywalker: “wait wait!...Tomorrow, by this time, wait here. I’ll tell you then.”`,
   `Boy: “Yes!” he shouted, filled with joy.`,
   `He flew off like a happy mosquito (not literally flying).`,
-  `As he ran, a bywalker woman walked along the path. Nearby, three women stood watching the
-  bywalker woman talking to a boy.`,
+  `As he ran, a bywalker woman walked along the path. Nearby, three women stood watching the bywalker woman talking to a boy.`,
   `“Why did you talk to him?” one of the women asked.`,
   `“Why? Shouldn't I talk to him?” the bywalker woman replied.`,
   `“He’s that devil’s kid,” another woman said.`,
   `“He?…” The bywalker woman glanced at the boy, who was running happily. “Doesn’t look like it to me,”
   she replied.`,
-  `At the center of the warm, filled forest, a convoy of vehicles comes like a snake that lives in
-sewage.`,
+  `He was happily running`,
+  `......As we look further into the other side of the farm...exist another forest....`,
+  `At the center of the warm, filled forest, a convoy of vehicles comes like a snake that lives in sewage.`,
 
   `"Boss, you heard about that asteroid that fell a few days ago?" one of the people seated in
 the back of a car asked.`,
@@ -194,15 +195,13 @@ the back of a car asked.`,
 
   `"Nothing, Boss," the back-seater backed off.`,
 
-  `"Looks like Boss is busy doing something important," the back-seater whispered to another
-back-seater.`,
+  `"Looks like Boss is busy doing something important," the back-seater whispered to another back-seater.`,
 
   `The driver peeked at the man&#39;s mobile to see what he was doing.`,
 
   `The man noticed.`,
 
-  `"What the fuck are you looking at?" the man yelled, trying to slap him, but the driver
-dodged.`,
+  `"What the fuck are you looking at?" the man yelled, trying to slap him, but the driver dodged.`,
 
   `"Am I flashing my pee pee?" the man snapped. 👺`,
   `"Hehe, sorry, Boss," the driver stammered. `,
@@ -240,9 +239,9 @@ dodged.`,
   `The boy fell to the ground.`,
   `“Boss? That jerk?!" the driver yelled`,
   ,
-  `Then the driver pointing his finger at the man in the car. "Look at him, He is the only bo—"" he started, but was cut off.`,
-  `The man in the car gave a cold look that said, I’m the one .`,
-  `The driver tried to speak, but Suddenly  a sharp sound interrupted him,he started yelping in pain and began to stagger around. He saw the cause of his pain: the little girl holding a stick, fury in her eyes.`,
+  `Then the driver pointing his finger at the man in the car and started "Look at him" ,"The man in the car gave a cold look that said, I’m the one ."..  "He is the only bo—"" he started, but was cut off.`,
+  
+  ` a sharp sound interrupted  him, he  started  yelping in pain and began to stagger around. He saw the cause of his pain: the little girl holding a stick, fury in her eyes.`,
   `he got hit by cho`,
   `"Don’t hurt my brother," she said firmly.`,
   `"you little brat,.." the driver growled.`,

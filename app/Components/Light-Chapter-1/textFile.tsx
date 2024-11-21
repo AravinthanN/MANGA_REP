@@ -179,7 +179,7 @@ const texts = [
   she replied.`,
   `… … . … … ..`,
   `As he approached a pile of trees, he notices sunlight glinted off a car emerging from the forest, followed by a convoy of vehicles
-    His face changed, 
+    His face changed as he senses like something bad about to happen, 
     `,
   `"Cho, come on, it’s time to go. We can come back tomorrow," he called out.`,
   `"Nooo," she protested, looking at him sweetly.`,

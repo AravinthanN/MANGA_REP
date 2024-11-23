@@ -50,7 +50,7 @@ const PopUp = ({ content }: { content: string | undefined }) => {
                     width: "100%",
                     height: "auto",
                     objectFit: "contain",
-                    transform: "rotate(90deg)",
+                    // transform: "rotate(90deg)",
                     transformOrigin: "center",
                   }}
                 />

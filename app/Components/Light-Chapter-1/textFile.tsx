@@ -146,7 +146,7 @@ const texts = [
   `p-2: why?`,
   `p-3: nothing, just wondering,  we were working together for a being, but you didnt ask any of us for a shopping`,
   `p-2: whyyy?.. last time we went for a shopping. you chose a shit colored saree and said it'll  look good on me,.... now... whenever i wear it, my kids close their nose and say " eww..stinks ma "(mimicked)`,
-  `p-3: oh thats why you didnt wear it for functions,haa?.....i thought you were saving it for the big occasion`,
+  `p-3: oh thats why you didnt wear it for any functions,haa?.....i thought you were saving it for the big occasion`,
   `they all started laughing`,
   `p-2(snapped) : you little  ^$*^%**^** jfsgjsgjs`,
   `The two women watched bywalker go, puzzled.

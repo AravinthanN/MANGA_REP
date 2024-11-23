@@ -5,6 +5,8 @@ const texts = [
   `One would say its a heaven`,
   `Fall on Ilo is like Earth's day but far more mesmerizing. Everywhere you look, trees, flowers, and vibrant birds fill the landscape. In the dense forests, extraordinary creatures thrive. Picture a countryside brimming with farms, gardens, and forests under bright, warm weather, balanced perfectly by a cool, refreshing breeze. Its a harmonious, natural paradise.
     `,
+  `#images/TheForestDummy.jpg`,
+  `**DUMMY  IMAGE**`,
   `Chapter 1: Light
     <div className="block">—---------------:-----------------------------------------::</div>
     PRESENT 
@@ -21,6 +23,7 @@ const texts = [
     But his smile slowly faded as he noticed other kids playing together far from there while his sister was alone.
     `,
   `#images/TheBoyIntro.jpg`,
+  `#images/TheFarm.jpg`,
   `**He knows that she wants to play with other kids so badly, but she won’t**`,
   `“Cho,” he called`,
   `“Aahhnnn?” she asked`,
@@ -35,6 +38,7 @@ const texts = [
   `The palm-sized wood fell on the ground`,
   `“BZZZZZZRRRAAAAHHHHH!”`,
   `Suddenly, a bee flew up from where the wood had landed`,
+  `#images/TheBee.jpg`,
   `“Who the fuck decided to terminate me—aiizzzzz?” the bee said, enraged`,
   `**Yup the bee spoke**`,
   `Cho looked at the bee excitedly`,
@@ -241,7 +245,7 @@ the back of a car asked.`,
   `“Boss? That jerk?!" the driver yelled`,
   ,
   `Then the driver pointing his finger at the man in the car and started "Look at him" ,"The man in the car gave a cold look that said, I’m the one ."..  "He is the only bo—"" he started, but was cut off.`,
-  
+
   ` a sharp sound interrupted  him, he  started  yelping in pain and began to stagger around. He saw the cause of his pain: the little girl holding a stick, fury in her eyes.`,
   `he got hit by cho`,
   `"Don’t hurt my brother," she said firmly.`,

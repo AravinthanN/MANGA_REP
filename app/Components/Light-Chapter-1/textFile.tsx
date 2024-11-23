@@ -380,7 +380,7 @@ the back of a car asked.`,
   ` CUT 
 
     "Wait.....DEAD ????"
-    
+
     PRESENT. 
     Time: around 7:30
     `,
@@ -448,7 +448,7 @@ the back of a car asked.`,
   `"That….huhh…..Those people... /takes a breath/... they’re working hard,you know, having a tough day. Though they seem joyful, I can see that they feel empty ,maybe i can only see that. They want something to ease their emptiness  and.... I am that something. I don't mind if they hate me—I just want them to have a really peaceful life, as long as I'm alive.”`,
   `“You’re so cool, big bro!”`,
   `eventhough  they make you sad,you  want  them  being  happy ,,, ,,you re soo cool, big bro,  she admired her brother`,
-  `He stopped, looking at a burned-down building far away, with a skeleton pinned on a post in front of it.`,
+  `He stopped, looking at a burned-down PALACE(his home) far away, with a skeleton pinned on a post in front of it.`,
   `“Big bro, hurry! We’re late!” she urged, noticing he was lost in thought.`,
   `They kept walking, the forest getting colder as they got closer to the village.`,
   `Both started shaking in the cold breeze, unable to speak clearly.`,
@@ -460,19 +460,19 @@ the back of a car asked.`,
   `“Very soon......... Even if I can't go, I'll find a way to get you there.”`,
   `“No... I'll only go with you.”`,
   `The boy looked at her, smiled, and nodded, realizing he couldn't change her mind`,
-  `… 
+  `… `,
+  `They walked some distance`,
 
-  `,
   `
     “It’s really cold today, right, Cho?” he asked.
     `,
   `She didn’t respond.`,
-  `He felt she Stopped`,
-  `He turned to see why she was quiet. She stood frozen, staring at a scary figure, shaking in fear.`,
-  `The figure stood behind him, and he felt it was close. He got ready to fight it. Suddenly, he turned around and was shocked to see it looked like the creature he had described—an elephant with two legs and a creepy smile.`,
-  `He watched as it reached for him, shaking with fear. In its claws, it held a woman half eaten and asking for help, in its mouth, there was blood,the woman was that red saree sister .`,
-  `the boy broke ,“Cho, run!” he yelled.`,
-  `He was ready to attack, but before he could move, the demon jumped over him, showing its sharp claws and grinning as it flew toward his sister.`,
+  `He felt that she Stopped walking`,
+  `He turned to see why she was quiet. She stood frozen,shaking in fear, staring at a scary BEAST, `,
+  `The BEAST stood behind him, and now only he felt it was close. He got ready to fight it. Suddenly, he turned around and was shocked to see it looked like the creature he had described—"an elephant with two legs and a creepy smile."`,
+  `He watched as it reached for him,he couldn't move as he is in fear. In its claws, it held a woman half eaten and asking for help, in its mouth, there was blood, ****that  woman was That Red Saree.****`,
+  `the boy broke as he watched That Red Saree Woman Who Was nice to him getting eaten..... ,“Cho, run!” he yelled.`,
+  `He was ready to attack, but before he could move, the BEAST jumped over him, showing its sharp claws and grinning as it flew toward his sister.`,
   `“Chooooo!”`,
   `THE END`,
   `POST  CREDITS:`,

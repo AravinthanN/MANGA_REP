@@ -39,15 +39,17 @@ const PopUp = ({ content }: { content: string | undefined }) => {
                 style={{
                   width: "100%",
                   height: "auto",
-                  display: "inline-block",
+                  display: "flex",
+                  flexDirection:'row',
+                  justifyContent:'center',
                   overflow: "hidden",
                 }}
               >
                 <img
-                  src={removedHash} // Or "/images/choIntro.jpg"
+                  src={`/images/${removedHash}`} // Or "/images/choIntro.jpg"
                   alt="Dynamic Image"
                   style={{
-                    width: "100%",
+                    width: "400px",
                     height: "auto",
                     objectFit: "contain",
                     // transform: "rotate(90deg)",
@@ -64,7 +66,7 @@ const PopUp = ({ content }: { content: string | undefined }) => {
 
       <PopoverContent>
         {(titleProps) => (
-          <div className="px-2 py-3 sm:px-4 sm:py-5">
+          <div className="w-full px-2 py-3 sm:px-4 sm:py-5">
             <h3
               className="sm:text-[15px] text-[12px] leading-relaxed font-bold max-w-screen-lg text-white rounded-lg bg-black"
               {...titleProps}

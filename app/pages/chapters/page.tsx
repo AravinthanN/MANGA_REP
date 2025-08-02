@@ -1,3 +1,3 @@
-export function chaptersPage() {
+export default function chaptersPage() {
   return <div>oops</div>;
 }

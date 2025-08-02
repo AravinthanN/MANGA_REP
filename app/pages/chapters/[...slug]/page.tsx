@@ -1,18 +1,19 @@
 // "use client"
 import Chapter_1 from '@/packages/ui/components/chapter_1/chapter1';
-import { useRouter } from 'next/navigation';
+// import { useRouter } from 'next/navigation';
 import { ReactNode } from 'react';
 const chapters: Record<string, ReactNode> = {
   'chapter-1': <Chapter_1 />,
   // "chapter-two": ChapterTwo,
   // "chapter-three": ChapterThree,
 };
-export default function chaptersPage({
+interface PageProps{
+  params:Promise<{slug:string[]}>;
+}
+export default async function chaptersPage({
   params,
-}: {
-  params: { slug: string[] };
-}) {
-  const slug = params.slug?.join('/');
+}: PageProps) {
+  const slug = (await params).slug?.join('/');
 
   if (!slug) return <p>Loading...</p>;
 

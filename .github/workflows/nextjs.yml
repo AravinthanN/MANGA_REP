@@ -1,38 +1,44 @@
-name: Build and Deploy
+name: Build and Export Next.js App
 
 on:
   push:
     branches:
       - main
+  pull_request:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout Code
-        uses: actions/checkout@v3
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
 
-      - name: 🟢 Setup Node
+      - name: 🟢 Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
           cache: 'pnpm'
 
-      - name: 📦 Install Dependencies
+      - name: 📦 Install PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: 📥 Install Dependencies
         run: pnpm install
 
-      - name: 🔧 Build (no export)
+      - name: 🔍 Lint and Type Check
+        run: pnpm lint && pnpm tsc
+
+      - name: 🔨 Build Next.js App
         run: pnpm build
 
-      - name: ✅ Lint & Type Check
-        run: |
-          pnpm lint || true
-          pnpm tsc || true
+      - name: 📤 Export Static Site
+        run: pnpm export
 
-      - name: 📤 Upload build (optional)
+      - name: 📦 Upload Exported Site
         uses: actions/upload-artifact@v3
         with:
-          name: next-app
-          path: .next
-
+          name: out
+          path: out

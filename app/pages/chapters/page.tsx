@@ -1,3 +1,3 @@
-export function chaptersPage(){
-    return <div>oops</div>
+export function chaptersPage() {
+  return <div>oops</div>;
 }

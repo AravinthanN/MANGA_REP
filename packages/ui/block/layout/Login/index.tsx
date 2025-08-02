@@ -8,7 +8,7 @@ type LoginFormInputs = {
 };
 
 const Login: React.FC = () => {
-    const {login} = useAuth()
+  const { login } = useAuth();
   const {
     register,
     handleSubmit,
@@ -16,7 +16,7 @@ const Login: React.FC = () => {
   } = useForm<LoginFormInputs>();
 
   const onSubmit = (data: LoginFormInputs) => {
-    login(data.email,data.password)
+    login(data.email, data.password);
     // console.log('Login Data:', data);
     // 🔐 Add your authentication logic here
   };
@@ -37,7 +37,9 @@ const Login: React.FC = () => {
             {...register('email', { required: 'Email is required' })}
             className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
           />
-          {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>}
+          {errors.email && (
+            <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>
+          )}
         </div>
 
         {/* Password */}
@@ -48,7 +50,11 @@ const Login: React.FC = () => {
             {...register('password', { required: 'Password is required' })}
             className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
           />
-          {errors.password && <p className="text-red-500 text-sm mt-1">{errors.password.message}</p>}
+          {errors.password && (
+            <p className="text-red-500 text-sm mt-1">
+              {errors.password.message}
+            </p>
+          )}
         </div>
 
         {/* Submit */}

@@ -1,1 +1,1 @@
-export const tabs = [{title:"Chapter 1",path:"chapter-1"}]
+export const tabs = [{ title: 'Chapter 1', path: 'chapter-1' }];

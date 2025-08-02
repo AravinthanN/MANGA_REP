@@ -3,7 +3,17 @@
 @tailwind utilities;
 
 :root {
-    --background: #000000;
-    --foreground: #ffffff;
-  }
-  
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+        .first-paragraph::first-line {
+          float: left;
+          font-size: 3rem;
+          line-height: 1;
+          padding-right: 0.2em;
+          font-weight: bold;
+          font-family: Georgia, serif;
+          color: #8b5e3c;
+        }
+     

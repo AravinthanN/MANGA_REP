@@ -1,17 +1,16 @@
 const texts = [
-  
   // `#TheForestDummy.jpg`,
   // `**DUMMY  IMAGE**`,
   `Light`,
-    // `<div className="block">—---------------:-----------------------------------------::</div>`,
-    `PRESENT 
+  // `<div className="block">—---------------:-----------------------------------------::</div>`,
+  `PRESENT 
     `,
   `In a very dark space where no light could reach and no sound could be heard, there were floating rocks.Yet, in this silent, empty space, the laughter of a little girl could be heard. In the distance, a planet shone like a light in the dark, the only light in the empty space. No other planets were nearby. 
     -  planet ILO
     `,
   ` She illuminated everything with her bright smile, so bright it could outshine the sun. A beautiful black and blue butterfly sat on her head, gently moving its wings ,a glazier flame wings and adding to her joyful look. She was happily playing with her small sheep.`,
 
-    `WELCOME to Planet ILO - it is a unique STAR where life thrives. Unlike Earth's sunrise and nightfall, Ilo experiences Risen and Fall.
+  `WELCOME to Planet ILO - it is a unique STAR where life thrives. Unlike Earth's sunrise and nightfall, Ilo experiences Risen and Fall.
     During Risen—the equivalent of night—the planet does not just grow dark. It glows with vibrant, aurora-like radiation. Every living being enlarges, except the Iloians (similar to humans on Earth). The wind smells like strawberry ice cream, and you can even see it with the naked eye. Imagine massive trees with colorful, glowing leaves, winds humming like melodies, and butterflies the size of humans. Its like a dreamlike paradise.
     `,
   `One would say its a heaven`,
@@ -533,7 +532,8 @@ The force was so immense that it sent us hurtling back to the present.`,
   `"thats ONE good question",the boy 😅 but in his mind "why does she talk like grown person"`,
   `"tell me .big bro"`,
   `"That…....yeah i never told told you,right?...huhh…..Those people... /takes a breath/... they’re working hard,you know, having a tough day. Though they seem joyful, I can see that they feel empty ,maybe i can only see that. They want something to ease their emptiness  and....i think I am that something. I don't mind if they hate me or..or..anything—I just want them to have a really peaceful life, as long as I'm alive.”`,
-  `even that person who hit you today?`,`even that person who hit me today`,
+  `even that person who hit you today?`,
+  `even that person who hit me today`,
   `  they hurt you, they hate you,but you  want  them  to be  happy ,,,,,, ,,you re soo cool, big bro,  she admired her brother`,
   `"not only me cho,you should be like that too........that aside ..why did you ask me this in the first place",the boy`,
   `"sometimes i feel like someone's talking to me big bro",she said (not heard what he just said)`,

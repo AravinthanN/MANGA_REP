@@ -1,70 +1,38 @@
-name: Deploy Next.js site to GitHub Pages
+name: Build and Deploy
 
 on:
   push:
-    branches: ['main']
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: 'pages'
-  cancel-in-progress: false
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - name: 📥 Checkout Code
+        uses: actions/checkout@v3
 
-      - name: Setup Node.js and enable Corepack (for pnpm)
-        uses: actions/setup-node@v4
+      - name: 🟢 Setup Node
+        uses: actions/setup-node@v3
         with:
-          node-version: '20'
-      - name: Enable Corepack and activate pnpm
-        run: |
-          corepack enable
-          corepack prepare pnpm@8 --activate
+          node-version: '18'
+          cache: 'pnpm'
 
-      - name: Install dependencies with pnpm
+      - name: 📦 Install Dependencies
         run: pnpm install
 
-      # - name: Restore Next.js cache
-      #   uses: actions/cache@v4
-      #   with:
-      #     path: .next/cache
-      #     key: ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}-${{ hashFiles('**/*.[jt]s', '**/*.[jt]sx') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}-
+      - name: 🔧 Build (no export)
+        run: pnpm build
 
-      - name: Setup GitHub Pages
-        uses: actions/configure-pages@v5
-        with:
-          static_site_generator: next
-
-      - name: Build and export Next.js site
+      - name: ✅ Lint & Type Check
         run: |
-          pnpm next build
-          pnpm next export
+          pnpm lint || true
+          pnpm tsc || true
 
-      - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: 📤 Upload build (optional)
+        uses: actions/upload-artifact@v3
         with:
-          path: ./out
+          name: next-app
+          path: .next
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4

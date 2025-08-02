@@ -1,6 +1,5 @@
 // "use client"
 import Chapter_1 from '@/packages/ui/components/chapter_1/chapter1';
-// import { useRouter } from 'next/navigation';
 import { ReactNode } from 'react';
 const chapters: Record<string, ReactNode> = {
   'chapter-1': <Chapter_1 />,

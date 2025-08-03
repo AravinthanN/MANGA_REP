@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout Code
+      - name: 📥 Checkout Repository
         uses: actions/checkout@v4
 
       - name: 🟢 Setup Node.js
@@ -28,20 +28,21 @@ jobs:
           node-version: '20'
           cache: 'pnpm'
 
-      - name: 📦 Enable Corepack and Install PNPM
+      - name: 📦 Enable Corepack and Activate PNPM
         run: |
           corepack enable
           corepack prepare pnpm@8.15.4 --activate
+          pnpm --version
 
       - name: 📥 Install Dependencies
         run: pnpm install
 
-      - name: 🔨 Build and Export Next.js App
+      - name: 🔨 Build and Export
         run: |
           pnpm build
           pnpm export
 
-      - name: 🚚 Upload Static Site Artifacts
+      - name: 🚚 Upload Static Site
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out

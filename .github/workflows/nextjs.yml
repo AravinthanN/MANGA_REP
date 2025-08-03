@@ -21,11 +21,7 @@ jobs:
           cache: 'pnpm'
 
       - name: 📦 Install PNPM
-        uses: pnpm/action-setup@v2
-        with:
-          version: 10.14.0
-          run_install: false
-          package_manager: pnpm  # 👈 ADD THIS
+        run: npm install -g pnpm@10.14.0
 
       - name: 🔍 Check PNPM Version
         run: pnpm --version

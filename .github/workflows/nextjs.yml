@@ -1,47 +1,58 @@
-name: Build and Export Next.js App
+name: Deploy Next.js Static Site to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
-  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout Repository
+      - name: 📥 Checkout Code
         uses: actions/checkout@v4
 
       - name: 🟢 Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '22.14.0'
+          node-version: '20'
           cache: 'pnpm'
 
-      - name: 📦 Enable Corepack and Prepare PNPM
+      - name: 📦 Enable Corepack and Install PNPM
         run: |
           corepack enable
-          corepack prepare pnpm@10.14.0 --activate
-
-      - name: 🔍 Check PNPM Version
-        run: pnpm --version
+          corepack prepare pnpm@8.15.4 --activate
 
       - name: 📥 Install Dependencies
         run: pnpm install
 
-      - name: 🔍 Lint and Type Check
-        run: pnpm lint && pnpm tsc
+      - name: 🔨 Build and Export Next.js App
+        run: |
+          pnpm build
+          pnpm export
 
-      - name: 🔨 Build Next.js App
-        run: pnpm build
-
-      - name: 📤 Export Static Site
-        run: pnpm export
-
-      - name: 📦 Upload Exported Site
-        uses: actions/upload-artifact@v4
+      - name: 🚚 Upload Static Site Artifacts
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: out
-          path: out
+          path: ./out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 🚀 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -8,7 +8,7 @@ import { useRouter } from 'next/navigation';
 const Home = () => {
   const router = useRouter();
   const goToChapter = (slug: string) => {
-    router.push(`/pages/chapters/${slug}`);
+    router.push(`/chapters/${slug}`);
   };
   return (
     <>

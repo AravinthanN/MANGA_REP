@@ -25,6 +25,10 @@ jobs:
         with:
           version: 10.14.0
           run_install: false
+          package_manager: pnpm  # 👈 ADD THIS
+
+      - name: 🔍 Check PNPM Version
+        run: pnpm --version
 
       - name: 📥 Install Dependencies
         run: pnpm install

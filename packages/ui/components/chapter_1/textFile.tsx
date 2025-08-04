@@ -1,20 +1,18 @@
 const texts = [
   // `#TheForestDummy.jpg`,
   // `**DUMMY  IMAGE**`,
-  `Light`,
+  `no-frame Light`,
   // `<div className="block">—---------------:-----------------------------------------::</div>`,
-  `PRESENT 
+  `no-frame PRESENT 
     `,
-  `In a very dark space where no light could reach and no sound could be heard, there were floating rocks.Yet, in this silent, empty space, the laughter of a little girl could be heard. In the distance, a planet shone like a light in the dark, the only light in the empty space. No other planets were nearby. 
-    -  planet ILO
-    `,
-  ` She illuminated everything with her bright smile, so bright it could outshine the sun. A beautiful black and blue butterfly sat on her head, gently moving its wings ,a glazier flame wings and adding to her joyful look. She was happily playing with her small sheep.`,
+  `no-frame #Intro.png`,
+  `no-frame  She illuminated everything with her bright smile, so bright it could outshine the sun. A beautiful black and blue butterfly sat on her head, gently moving its wings ,a glazier flame wings and adding to her joyful look. She was happily playing with her small sheep.`,
 
-  `WELCOME to Planet ILO - it is a unique STAR where life thrives. Unlike Earth's sunrise and nightfall, Ilo experiences Risen and Fall.
+  `no-frame WELCOME to Planet ILO - it is a unique STAR where life thrives. Unlike Earth's sunrise and nightfall, Ilo experiences Risen and Fall.
     During Risen—the equivalent of night—the planet does not just grow dark. It glows with vibrant, aurora-like radiation. Every living being enlarges, except the Iloians (similar to humans on Earth). The wind smells like strawberry ice cream, and you can even see it with the naked eye. Imagine massive trees with colorful, glowing leaves, winds humming like melodies, and butterflies the size of humans. Its like a dreamlike paradise.
     `,
-  `One would say its a heaven`,
-  `Fall on Ilo is like Earth's day but far more mesmerizing. Everywhere you look, trees, flowers, and vibrant birds fill the landscape. In the dense forests, extraordinary creatures thrive. Picture a countryside brimming with farms, gardens, and forests under bright, warm weather, balanced perfectly by a cool, refreshing breeze. Its a harmonious, natural paradise.
+  `no-frame One would say its a heaven`,
+  `no-frame Fall on Ilo is like Earth's day but far more mesmerizing. Everywhere you look, trees, flowers, and vibrant birds fill the landscape. In the dense forests, extraordinary creatures thrive. Picture a countryside brimming with farms, gardens, and forests under bright, warm weather, balanced perfectly by a cool, refreshing breeze. Its a harmonious, natural paradise.
     `,
 
   `#choIntro.png`,
@@ -49,13 +47,14 @@ const texts = [
   `The palm-sized wood fell on the ground`,
   `“BZZZZZZRRRAAAAHHHHH!”`,
   `Suddenly, a bee,green coloured,having moustache and spike on his hair, flew up from where the wood had landed`,
-  `#TheBee.jpg`,
+  
   `“Who the fuck decided to terminate me—aiizzzzz?” the bee enraged`,
   // `**Yup the bee spoke**`,
   `Cho looked at the bee excitedly( she has never seen a bee speak)`,
   `“Hey👺… yo mean-looking monster, who sent you?” the bee demanded`,
   `Cho still looked at him excitedly`,
-  `“Must be that red-assed shithead” the bee muttered, looking down with its hand on its chin like its thinking`,
+  // `“Must be that red-assed shithead” the bee muttered, looking down with its hand on its chin like its thinking`,
+  `#TheBee.png`,
   `Meanwhile, Cho tried to capture the bee`,
   `The bee dodged her`,
   `“Hey👺… so you chose hands, huh?.......“Alright-iieeezzz, bbzzzz you wish,”,the bee`,

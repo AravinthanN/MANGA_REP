@@ -83,7 +83,10 @@ const ChapterLayout: React.FC<ChapterLayoutProps> = ({
           return (
             <div
               key={index}
-              ref={(el) => (blockRefs.current[index] = el)}
+              ref={(el) => {
+  blockRefs.current[index] = el;
+}}
+
               className={`text-justify mb-4 text-lg leading-relaxed font-serif ${
                 index === 0 ? 'first-paragraph' : 'indent-8'
               }`}

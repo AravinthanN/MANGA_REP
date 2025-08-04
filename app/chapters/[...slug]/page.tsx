@@ -6,12 +6,10 @@ const chapters: Record<string, ReactNode> = {
   // "chapter-two": ChapterTwo,
   // "chapter-three": ChapterThree,
 };
-interface PageProps{
-  params:Promise<{slug:string[]}>;
+interface PageProps {
+  params: Promise<{ slug: string[] }>;
 }
-export default async function chaptersPage({
-  params,
-}: PageProps) {
+export default async function chaptersPage({ params }: PageProps) {
   const slug = (await params).slug?.join('/');
 
   if (!slug) return <p>Loading...</p>;

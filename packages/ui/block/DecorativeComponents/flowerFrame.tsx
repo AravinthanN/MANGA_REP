@@ -5,7 +5,7 @@ import { useFrameVisibility } from '../../context/frameVisbilityContext';
 import { AnimatePresence, motion } from 'framer-motion';
 
 const FloralFrame = ({ children }: { children: ReactNode }) => {
-   const { visible } = useFrameVisibility();
+  const { visible } = useFrameVisibility();
   return (
     <div className="relative w-full h-screen p-8 bg-[#fffaf1] overflow-hidden  shadow-xl">
       {/* Border Image */}
@@ -14,15 +14,15 @@ const FloralFrame = ({ children }: { children: ReactNode }) => {
         src="/images/borderflowers1.png"
         alt="Floral Border Frame"
       /> */}
-<AnimatePresence>
+      <AnimatePresence>
         {visible && (
           <motion.img
-            className="absolute inset-0 w-full h-full  pointer-events-none select-none z-10 scale-y-[1.11] scale-x-[1.08]"
+            className="absolute inset-0 w-full h-full  pointer-events-none select-none z-10 scale-y-[1.25] scale-x-[1.20]"
             src="/images/borderflowers.png"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 1.5 }}
           />
         )}
       </AnimatePresence>

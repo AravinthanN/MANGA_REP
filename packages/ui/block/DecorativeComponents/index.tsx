@@ -1,1 +1,1 @@
-export * from './flowerFrame'
+export * from './flowerFrame';

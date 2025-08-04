@@ -47,7 +47,7 @@ const texts = [
   `The palm-sized wood fell on the ground`,
   `“BZZZZZZRRRAAAAHHHHH!”`,
   `Suddenly, a bee,green coloured,having moustache and spike on his hair, flew up from where the wood had landed`,
-  
+
   `“Who the fuck decided to terminate me—aiizzzzz?” the bee enraged`,
   // `**Yup the bee spoke**`,
   `Cho looked at the bee excitedly( she has never seen a bee speak)`,

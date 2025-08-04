@@ -3,5 +3,9 @@ import { FrameVisibilityProvider } from '@/packages/ui/context/frameVisbilityCon
 import { ReactNode } from 'react';
 
 export const Providers = ({ children }: { children: ReactNode }) => {
-  return <AuthContextProvider><FrameVisibilityProvider>{children}</FrameVisibilityProvider></AuthContextProvider>;
+  return (
+    <AuthContextProvider>
+      <FrameVisibilityProvider>{children}</FrameVisibilityProvider>
+    </AuthContextProvider>
+  );
 };

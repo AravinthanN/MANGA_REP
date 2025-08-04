@@ -17,10 +17,7 @@ const PopUp = ({ content }: { content: string | undefined }) => {
         return isHtml ? (
           <span key={index} dangerouslySetInnerHTML={{ __html: line }} />
         ) : isImageLine && imagePath ? (
-          <div
-            key={index}
-            className="w-full flex justify-center my-4"
-          >
+          <div key={index} className="w-full flex justify-center my-4">
             <img
               src={`/images/${imagePath}`}
               alt="Dynamic"

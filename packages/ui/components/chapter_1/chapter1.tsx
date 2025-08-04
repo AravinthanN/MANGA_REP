@@ -8,7 +8,12 @@ import FlowerFrame from '../../block/DecorativeComponents/flowerFrame';
 
 const Chapter_1 = () => {
   return (
-    <FlowerFrame><ChapterLayout texts={texts as string[]??[]} NoFrameKeyword={'no-frame'}/></FlowerFrame>   
+    <FlowerFrame>
+      <ChapterLayout
+        texts={(texts as string[]) ?? []}
+        NoFrameKeyword={'no-frame'}
+      />
+    </FlowerFrame>
   );
 };
 

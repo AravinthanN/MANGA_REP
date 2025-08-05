@@ -3,8 +3,7 @@ const texts = [
   // `**DUMMY  IMAGE**`,
   `no-frame Light`,
   // `<div className="block">—---------------:-----------------------------------------::</div>`,
-  `no-frame PRESENT 
-    `,
+  // `no-frametime: present `,
   `no-frame #Intro.png`,
   `no-frame  She illuminated everything with her bright smile, so bright it could outshine the sun. A beautiful black and blue butterfly sat on her head, gently moving its wings ,a glazier flame wings and adding to her joyful look. She was happily playing with her small sheep.`,
 

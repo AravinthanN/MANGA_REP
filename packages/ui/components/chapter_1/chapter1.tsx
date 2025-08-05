@@ -12,6 +12,7 @@ const Chapter_1 = () => {
       <ChapterLayout
         texts={(texts as string[]) ?? []}
         NoFrameKeyword={'no-frame'}
+        ChapterNo={1}
       />
     </FlowerFrame>
   );

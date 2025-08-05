@@ -6,7 +6,7 @@ import { useFrameVisibility } from '../../context/frameVisbilityContext';
 
 type ChapterLayoutProps = {
   texts: string[];
-  ChapterNo?:number;
+  ChapterNo?: number;
   BorderFrame?: ReactNode;
   NoFrameKeyword?: string;
 };
@@ -70,8 +70,11 @@ const ChapterLayout: React.FC<ChapterLayoutProps> = ({
         ref={containerRef}
         className="w-full md:w-[70%] px-6 py-8 border border-[#8f8a8a] rounded-xl prose prose-lg prose-slate dark:prose-invert font-serif bg-[#fffaf1] backdrop-blur-lg transition-all duration-500 h-screen overflow-y-auto"
       >
-        { 
-          <h1 className='text-4xl font-bold mb-4 text-center font-serif text-[#9c597c]'>Chapter <span>{ChapterNo}</span></h1>}
+        {
+          <h1 className="text-4xl font-bold mb-4 text-center font-serif text-[#9c597c]">
+            Chapter <span>{ChapterNo}</span>
+          </h1>
+        }
         {texts.map((text, index) => {
           const cleanText = NoFrameKeyword
             ? text.replace(new RegExp(NoFrameKeyword, 'gi'), '').trim()

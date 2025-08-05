@@ -5,20 +5,36 @@ const texts = [
   // `<div className="block">—---------------:-----------------------------------------::</div>`,
   // `no-frametime: present `,
   `no-frame #Intro.png`,
-  `no-frame  She illuminated everything with her bright smile, so bright it could outshine the sun. A beautiful black and blue butterfly sat on her head, gently moving its wings ,a glazier flame wings and adding to her joyful look. She was happily playing with her small sheep.`,
-
-  `no-frame WELCOME to Planet ILO - it is a unique STAR where life thrives. Unlike Earth's sunrise and nightfall, Ilo experiences Risen and Fall.
-    During Risen—the equivalent of night—the planet does not just grow dark. It glows with vibrant, aurora-like radiation. Every living being enlarges, except the Iloians (similar to humans on Earth). The wind smells like strawberry ice cream, and you can even see it with the naked eye. Imagine massive trees with colorful, glowing leaves, winds humming like melodies, and butterflies the size of humans. Its like a dreamlike paradise.
-    `,
-  `no-frame One would say its a heaven`,
+  `no-frame #Intro2.png`,
+  `no-frame it was not a song, it was someone's laugh`,
+  `no-frame someone who illuminated everything with her bright smile, so bright it could outshine our sun. Legend has it that it was her presence that brightens the ilo`,
+  `no-frame Ilo, A planet , more like a STAR but habitable, couldnt express its beauty in words ,cant even draw`,
+  `no-frame Ilo in Fall(Day Time in Ilo)`,
+  `no-frame #ilo_day.png`,
   `no-frame Fall on Ilo is like Earth's day but far more mesmerizing. Everywhere you look, trees, flowers, and vibrant birds fill the landscape. In the dense forests, extraordinary creatures thrive. Picture a countryside brimming with farms, gardens, and forests under bright, warm weather, balanced perfectly by a cool, refreshing breeze. Its a harmonious, natural paradise.
     `,
-
+  `no-frame Ilo in Risen(Night Time in Ilo)`,
+  `no-frame #ilo_night.png`,
+  `no-frame During Risen—the equivalent of night—the planet does not just grow dark. It glows with vibrant, aurora-like radiation. Every living being enlarges, except the Iloians (similar to humans on Earth). The wind smells like strawberry ice cream, and you can even see it with the naked eye. Imagine massive trees with colorful, glowing leaves, winds humming like melodies, and butterflies the size of humans. Its like a dreamlike paradise.`,
+  `no-frame One would say its a heaven`,
+  `no-frame Even this heavenly planet wouldnt be heavenly without this little girl, Cho`,
+  `no-frame A beautiful black and blue butterfly sat on her head, gently moving its wings ,a glazier flame wings and adding to her joyful look.`,
+  `no-frame She was happily playing with her small sheep.`,
   `#choIntro.png`,
+
+  // `no-frame  She illuminated everything with her bright smile, so bright it could outshine the sun. A beautiful black and blue butterfly sat on her head, gently moving its wings ,a glazier flame wings and adding to her joyful look. She was happily playing with her small sheep.`,
+
+  // `no-frame WELCOME to Planet ILO - it is a unique STAR where life thrives. Unlike Earth's sunrise and nightfall, Ilo experiences Risen and Fall.
+  //   During Risen—the equivalent of night—the planet does not just grow dark. It glows with vibrant, aurora-like radiation. Every living being enlarges, except the Iloians (similar to humans on Earth). The wind smells like strawberry ice cream, and you can even see it with the naked eye. Imagine massive trees with colorful, glowing leaves, winds humming like melodies, and butterflies the size of humans. Its like a dreamlike paradise.
+  //   `,
+
+  // `no-frame Fall on Ilo is like Earth's day but far more mesmerizing. Everywhere you look, trees, flowers, and vibrant birds fill the landscape. In the dense forests, extraordinary creatures thrive. Picture a countryside brimming with farms, gardens, and forests under bright, warm weather, balanced perfectly by a cool, refreshing breeze. Its a harmonious, natural paradise.
+  //   `,
+
   // `**Glazier flame- like fire made of ice breeze**`,
-  `**The farm exist in between two forest**`,
+  // `**The farm exist in between two forest**`,
   `Twenty feet behind her`,
-  ` a boy , about fifteen years old, stood in a meadow filled with flowers and butterflies. He watched his sister laugh and play while trying to cut the last log from a pile of fifty trees. Even though he was tired, he felt joy seeing her so happy. 
+  ` a boy , about fifteen years old, stood in a meadow filled with flowers and butterflies. He watched his sister laugh and play while trying to cut the last log from a pile of fifty trees. Even though he was tired, he felt joy seeing her being happy. 
     But his smile slowly faded as he noticed other kids playing together far from there while his sister was alone.
     `,
   `#TheBoy.png`,
@@ -35,19 +51,20 @@ const texts = [
   `“Cho,” he called`,
   `“Aahhnnn?” she asked`,
   `He pointed at those kids`,
-  `“They are looking at you… I think they want to play with you, why don’t you go there and play with them?” he lied`,
+  `“why don’t you go there and play with them?”, he said`,
   `She looked at them playing cheerfully,
    saddened `,
   `Her face literally said  " i want to play with them"`,
   `But she suddenly changed her expression as she turned to answer her brother, like she was never saddened`,
   `“No, I’m going to play with Kiki,” she replied cheerfully and proceeded to chase her little sheep`,
-  `He knew she was lying, so he decided to do something stupid, he sensed something behind her, he smirked`,
+  `He knew she was faking, so he decided to do something stupid. he sensed something behind her, he smirked`,
   `He picked a palm-sized piece of wood and threw it in her direction`,
-  `The palm-sized wood fell on the ground`,
+  `The palm-sized wood fell on the something`,
+  `thudd!!!`,
   `“BZZZZZZRRRAAAAHHHHH!”`,
   `Suddenly, a bee,green coloured,having moustache and spike on his hair, flew up from where the wood had landed`,
 
-  `“Who the fuck decided to terminate me—aiizzzzz?” the bee enraged`,
+  `“Who the fuck decided to terminate me—aiizzzzz?”, the bee enraged`,
   // `**Yup the bee spoke**`,
   `Cho looked at the bee excitedly( she has never seen a bee speak)`,
   `“Hey👺… yo mean-looking monster, who sent you?” the bee demanded`,
@@ -152,7 +169,7 @@ const texts = [
   `p-3: oh thats why you didnt wear it for any functions,haa?.....i thought you were saving it for the big occasion`,
   `they all started laughing`,
   `p-2(snapped) : you little  ^$*^%**^** jfsgjsgjs`,
-  `The two women watched bywalker go, puzzled.
+  `The two other women watched bywalker go, puzzled.
     P-1: “Who does she call her husband? She is not married, is she?”
     P-2: “Now that you mention it… I do not know.”
     Both stared at her, confused, and said in unison:
@@ -175,7 +192,7 @@ const texts = [
   `He stopped.
     Bywalker: “For whom?”
     `,
-  `Boy: “My sister,” he replied, looking down.`,
+  `Boy: “My sister”, he replied, looking down.`,
   `Bywalker: “Do you have money?” she asked, smiling.`,
   `Boy: “Not enough to buy something like your dress,” he admitted.`,
   `Bywalker: “I’ll help you get what you want,” she said.`,
@@ -183,7 +200,7 @@ const texts = [
     Boy: “Really?”
     `,
   `Bywalker: “Only if you do something for me,” she added with a playful smirk.`,
-  `Boy: “What do you want me to do? I can cut, I can break, I can… I can do anything!” he said, eager.`,
+  `Boy: “What do you want me to do? I can cut, I can break, I can… I can do anything!” he said, eagerly.`,
   `Bywalker: “wait wait!...Tomorrow, by this time, wait here. I’ll tell you then.”`,
   `Boy: “Yes!” he shouted, filled with joy.`,
   `He flew off like a happy mosquito (not literally flying).`,

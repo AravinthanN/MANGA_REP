@@ -10,9 +10,22 @@ const texts = [
   `no-frame someone who illuminated everything with her bright smile, so bright it could outshine our sun. Legend has it that it was her presence that brightens the ilo`,
   `no-frame Ilo, A planet , more like a STAR but habitable, couldnt express its beauty in words ,cant even draw`,
   `no-frame Ilo in Fall(Day Time in Ilo)`,
-  `no-frame #ilo_day.png`,
-  `no-frame Fall on Ilo is like Earth's day but far more mesmerizing. Everywhere you look, trees, flowers, and vibrant birds fill the landscape. In the dense forests, extraordinary creatures thrive. Picture a countryside brimming with farms, gardens, and forests under bright, warm weather, balanced perfectly by a cool, refreshing breeze. Its a harmonious, natural paradise.
-    `,
+  `no-frame <div className="relative group inline-block w-full max-w-xl overflow-hidden rounded-md">
+  <img
+    src="/images/ilo_day.png"
+    alt="Ilo Day"
+    className="w-full max-h-96 object-cover rounded-md"
+  />
+
+  <div className="absolute left-0 w-full bg-black bg-opacity-60 text-white p-4 text-sm text-center transition-all duration-500 ease-in-out top-full group-hover:top-0">
+    Fall on Ilo is like Earth's day but far more mesmerizing. Everywhere you look, trees, flowers, and vibrant birds fill the landscape. In the dense forests, extraordinary creatures thrive...
+  </div>
+</div>
+
+`,
+  // `no-frame #ilo_day.png`,
+  // `no-frame Fall on Ilo is like Earth's day but far more mesmerizing. Everywhere you look, trees, flowers, and vibrant birds fill the landscape. In the dense forests, extraordinary creatures thrive. Picture a countryside brimming with farms, gardens, and forests under bright, warm weather, balanced perfectly by a cool, refreshing breeze. Its a harmonious, natural paradise.
+  //   `,
   `no-frame Ilo in Risen(Night Time in Ilo)`,
   `no-frame #ilo_night.png`,
   `no-frame During Risen—the equivalent of night—the planet does not just grow dark. It glows with vibrant, aurora-like radiation. Every living being enlarges, except the Iloians (similar to humans on Earth). The wind smells like strawberry ice cream, and you can even see it with the naked eye. Imagine massive trees with colorful, glowing leaves, winds humming like melodies, and butterflies the size of humans. Its like a dreamlike paradise.`,

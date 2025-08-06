@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import PopUp from '@/app/PopOverComponent/PopOverComponent';
+import PopUp from '@/packages/ui/block/layout/PopOverComponent/PopOverComponent';
 import texts from './textFile';
 import ChapterLayout from '../../block/layout/chapterLayout';
 import FlowerFrame from '../../block/DecorativeComponents/flowerFrame';

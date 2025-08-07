@@ -1,8 +1,8 @@
 'use client';
 
 import React, { ReactNode, useEffect, useRef } from 'react';
-import PopUp from '@/packages/ui/block/layout/PopOverComponent/PopOverComponent';
 import { useFrameVisibility } from '../../context/frameVisbilityContext';
+import PopUp from './PopOverComponent/PopOverComponent';
 
 type ChapterLayoutProps = {
   texts: string[];

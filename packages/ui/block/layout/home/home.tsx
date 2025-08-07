@@ -1,9 +1,11 @@
 // pages/index.js
 'use client';
 import React from 'react';
-import { tabs } from '@/packages/helper/chaptersTab/chaptersTab';
+// import { tabs } from 'helper/chaptersTab/chaptersTab';
 import Head from 'next/head';
 import { useRouter } from 'next/navigation';
+import getChaptersTabs from '../../../helper/chaptersTab';
+
 
 const Home = () => {
   const router = useRouter();
@@ -28,7 +30,7 @@ const Home = () => {
           <div className="border-4 border-red-600 p-8 rounded-lg bg-black/60 shadow-2xl">
             <h2 className="text-2xl font-semibold mb-4">chapters</h2>
             <ul className="space-y-2 text-left text-red-300">
-              {tabs.map((tab, idx) => (
+              {getChaptersTabs().map((tab, idx) => (
                 <li key={idx}>
                   <button onClick={() => goToChapter(tab.path)}>
                     📖 {tab.title}

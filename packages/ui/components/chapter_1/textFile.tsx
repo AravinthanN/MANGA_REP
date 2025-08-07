@@ -10,15 +10,18 @@ const texts = [
   `no-frame someone who illuminated everything with her bright smile, so bright it could outshine our sun. Legend has it that it was her presence that brightens the ilo`,
   `no-frame Ilo, A planet , more like a STAR but habitable, couldnt express its beauty in words ,cant even draw`,
   `no-frame Ilo in Fall(Day Time in Ilo)`,
-  `no-frame <div className="relative group inline-block w-full max-w-xl overflow-hidden rounded-md">
+  `no-frame <div
+  className="relative w-full max-w-xl h-96 overflow-hidden rounded-md cursor-pointer hover:[&_.slide-up]:translate-y-0 hover:[&_.slide-up]:opacity-100 focus-within:[&_.slide-up]:translate-y-0 focus-within:[&_.slide-up]:opacity-100"
+  tabIndex={0} // ✅ makes div focusable on mobile tap
+>
   <img
     src="/images/ilo_day.png"
     alt="Ilo Day"
-    className="w-full max-h-96 object-cover rounded-md"
+    className="w-full h-full object-cover rounded-md pointer-events-none"
   />
 
-  <div className="absolute left-0 w-full bg-black bg-opacity-60 text-white p-4 text-sm text-center transition-all duration-500 ease-in-out top-full group-hover:top-0">
-    Fall on Ilo is like Earth's day but far more mesmerizing. Everywhere you look, trees, flowers, and vibrant birds fill the landscape. In the dense forests, extraordinary creatures thrive...
+  <div className="slide-up z-9999 absolute bottom-0 left-0 w-full translate-y-full opacity-0 bg-black bg-opacity-60 text-white text-sm text-center p-4 transition-all duration-500 ease-in-out">
+    Fall on Ilo is like Earth's day but far more mesmerizing. Trees, birds, and colors fill the skies...
   </div>
 </div>
 

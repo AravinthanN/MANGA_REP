@@ -7,14 +7,12 @@ const PopUp = ({ content }: { content: string | undefined }) => {
   if (!content) return null;
 
   const lines = [content];
-console.log(lines)
   return (
     <div className="w-full font-serif text-base leading-relaxed text-gray-800">
       {lines.map((line, index) => {
         const isHtml = /<\/?[a-z][\s\S]*>/i.test(line);
         const isImageLine = line.startsWith('#');
         const imagePath = isImageLine ? line.slice(1) : null;
-console.log('line',line)
         return isHtml ? (
           // <span key={index} dangerouslySetInnerHTML={{ __html: line }} />
           parse(line)

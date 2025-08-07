@@ -8,9 +8,15 @@ importers:
 
   .:
     dependencies:
+      html-dom-parser:
+        specifier: ^3.0.0
+        version: 3.1.7
       html-react-parser:
         specifier: 5.2.6
         version: 5.2.6(react@19.1.1)
+      react-property:
+        specifier: ^1.0.2
+        version: 1.0.2
 
 packages:
 
@@ -35,6 +41,9 @@ packages:
     resolution: {integrity: sha512-aN97NXWF6AWBTahfVOIrB/NShkzi5H7F9r1s9mD3cDj4Ko5f2qhhVoYMibXF7GlLveb/D2ioWay8lxI97Ven3g==}
     engines: {node: '>=0.12'}
 
+  html-dom-parser@3.1.7:
+    resolution: {integrity: sha512-cDgNF4YgF6J3H+d9mcldGL19p0GzVdS3iGuDNzYWQpU47q3+IRM85X3Xo07E+nntF4ek4s78A9V24EwxlPTjig==}
+
   html-dom-parser@5.1.1:
     resolution: {integrity: sha512-+o4Y4Z0CLuyemeccvGN4bAO20aauB2N9tFEAep5x4OW34kV4PTarBHm6RL02afYt2BMKcr0D2Agep8S3nJPIBg==}
 
@@ -50,8 +59,14 @@ packages:
   htmlparser2@10.0.0:
     resolution: {integrity: sha512-TwAZM+zE5Tq3lrEHvOlvwgj1XLWQCtaaibSN11Q+gGBAS7Y1uZSWwXXRe4iF6OXnaq1riyQAPFOBtYc77Mxq0g==}
 
+  htmlparser2@8.0.2:
+    resolution: {integrity: sha512-GYdjWKDkbRLkZ5geuHs5NY1puJ+PXwP7+fHPRz06Eirsb9ugf6d8kkXav6ADhcODhFFPMIXyxkxSuMf3D6NCFA==}
+
   inline-style-parser@0.2.4:
     resolution: {integrity: sha512-0aO8FkhNZlj/ZIbNi7Lxxr12obT7cL1moPfE4tg1LkX7LlLfC6DeX4l2ZEud1ukP9jNQyNnfzQVqwbwmAATY4Q==}
+
+  react-property@1.0.2:
+    resolution: {integrity: sha512-DhOw478q1wLnSLb4C15h2FxOso6OVB/VN5NOXdmrjebH/6IYm3K2jModJefbeURobK7+pgH6CKZZhumT8KdK/Q==}
 
   react-property@2.0.2:
     resolution: {integrity: sha512-+PbtI3VuDV0l6CleQMsx2gtK0JZbZKbpdu5ynr+lbsuvtmgbNcS3VM0tuY2QjFNOcWxvXeHjDpy42RO+4U2rug==}
@@ -90,6 +105,11 @@ snapshots:
 
   entities@6.0.1: {}
 
+  html-dom-parser@3.1.7:
+    dependencies:
+      domhandler: 5.0.3
+      htmlparser2: 8.0.2
+
   html-dom-parser@5.1.1:
     dependencies:
       domhandler: 5.0.3
@@ -110,7 +130,16 @@ snapshots:
       domutils: 3.2.2
       entities: 6.0.1
 
+  htmlparser2@8.0.2:
+    dependencies:
+      domelementtype: 2.3.0
+      domhandler: 5.0.3
+      domutils: 3.2.2
+      entities: 4.5.0
+
   inline-style-parser@0.2.4: {}
+
+  react-property@1.0.2: {}
 
   react-property@2.0.2: {}
 

@@ -8,15 +8,24 @@ importers:
 
   .:
     dependencies:
+      domhandler:
+        specifier: ^5.0.3
+        version: 5.0.3
       html-dom-parser:
         specifier: ^3.0.0
         version: 3.1.7
       html-react-parser:
         specifier: 5.2.6
         version: 5.2.6(react@19.1.1)
+      htmlparser2:
+        specifier: ^9.0.0
+        version: 9.1.0
       react-property:
         specifier: ^1.0.2
         version: 1.0.2
+      style-to-js:
+        specifier: 1.1.17
+        version: 1.1.17
 
 packages:
 
@@ -61,6 +70,9 @@ packages:
 
   htmlparser2@8.0.2:
     resolution: {integrity: sha512-GYdjWKDkbRLkZ5geuHs5NY1puJ+PXwP7+fHPRz06Eirsb9ugf6d8kkXav6ADhcODhFFPMIXyxkxSuMf3D6NCFA==}
+
+  htmlparser2@9.1.0:
+    resolution: {integrity: sha512-5zfg6mHUoaer/97TxnGpxmbR7zJtPwIYFMZ/H5ucTlPZhKvtum05yiPK3Mgai3a0DyVxv7qYqoweaEd2nrYQzQ==}
 
   inline-style-parser@0.2.4:
     resolution: {integrity: sha512-0aO8FkhNZlj/ZIbNi7Lxxr12obT7cL1moPfE4tg1LkX7LlLfC6DeX4l2ZEud1ukP9jNQyNnfzQVqwbwmAATY4Q==}
@@ -131,6 +143,13 @@ snapshots:
       entities: 6.0.1
 
   htmlparser2@8.0.2:
+    dependencies:
+      domelementtype: 2.3.0
+      domhandler: 5.0.3
+      domutils: 3.2.2
+      entities: 4.5.0
+
+  htmlparser2@9.1.0:
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3

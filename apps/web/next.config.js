@@ -1,7 +1,14 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  // Config options here
-  reactStrictMode: false,
-};
+const path = require('path');
 
-module.exports = nextConfig;
+module.exports = {
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...(config.resolve.alias || {}),
+      '@': path.resolve(__dirname),
+      'ui': path.resolve(__dirname, '../../packages/ui'),
+      '@manga/tailwind-config': path.resolve(__dirname, '../../packages/tailwind-config'),
+    };
+
+    return config;
+  },
+};

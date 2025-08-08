@@ -17,7 +17,15 @@
     "htmlparser2": "^9.1.0",
     "style-to-js": "1.1.17",
     "style-to-object": "^1.0.9",
-    "ui": "workspace:*"
+    "ui": "workspace:*",
+    "@manga/tailwind-config": "workspace:*"
   },
+   "devDependencies": {
+       
+        "@types/node": "^22.13.1",
+        "@types/react": "^18.3.1",
+        "@types/react-dom": "^18.3.1",
+        "typescript": "^5.7.3"
+    },
   "packageManager": "pnpm@10.14.0"
 }

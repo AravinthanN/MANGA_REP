@@ -19,5 +19,16 @@
     "domelementtype": "^2.3.0",
     "style-to-js": "1.1.17",
     "style-to-object": "^0.3.0"
+  },
+   "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^3.4.17",
+    "turbo": "^2.5.5",
+    "typescript": "^5.7.3"
   }
 }

@@ -18,10 +18,12 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",   
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "tailwind-config":["./packages/tailwind-config"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "jest.config.js", "packages/tailwind-config/index.js", "packages/tailwind-config/helper/getPackageContent.js", "next.config.js"],
   "exclude": ["node_modules"]
 }

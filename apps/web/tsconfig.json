@@ -9,7 +9,8 @@
       ],
       "ui/*": [
         "../../packages/ui/*"
-      ]
+      ],
+      "@manga/tailwind-config": ["../../packages/tailwind-config"]
     },
     "target": "ES2017",
     "lib": [

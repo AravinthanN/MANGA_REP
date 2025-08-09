@@ -6,9 +6,20 @@
 
    Creating an optimized production build ...
 
-[1m[33mwarn[39m[22m - The `content` option in your Tailwind CSS configuration is missing or empty.
-[1m[33mwarn[39m[22m - Configure your content sources or your generated CSS will be missing styles.
-[1m[33mwarn[39m[22m - https://tailwindcss.com/docs/content-configuration
+[1m[33mwarn[39m[22m - As of Tailwind CSS v2.2, `lightBlue` has been renamed to `sky`.
+[1m[33mwarn[39m[22m - Update your configuration file to silence this warning.
+
+[1m[33mwarn[39m[22m - As of Tailwind CSS v3.0, `warmGray` has been renamed to `stone`.
+[1m[33mwarn[39m[22m - Update your configuration file to silence this warning.
+
+[1m[33mwarn[39m[22m - As of Tailwind CSS v3.0, `trueGray` has been renamed to `neutral`.
+[1m[33mwarn[39m[22m - Update your configuration file to silence this warning.
+
+[1m[33mwarn[39m[22m - As of Tailwind CSS v3.0, `coolGray` has been renamed to `gray`.
+[1m[33mwarn[39m[22m - Update your configuration file to silence this warning.
+
+[1m[33mwarn[39m[22m - As of Tailwind CSS v3.0, `blueGray` has been renamed to `slate`.
+[1m[33mwarn[39m[22m - Update your configuration file to silence this warning.
  ✓ Compiled successfully
    Linting and checking validity of types ...
    Collecting page data ...
@@ -21,14 +32,14 @@
    Collecting build traces ...
 
 Route (app)                              Size     First Load JS
-┌ ○ /                                    1.01 kB         101 kB
+┌ ○ /                                    984 B           101 kB
 ├ ○ /_not-found                          896 B           101 kB
 ├ ○ /chapters                            136 B           100 kB
-└ ƒ /chapters/[...slug]                  66.6 kB         167 kB
+└ ƒ /chapters/[...slug]                  67.2 kB         167 kB
 + First Load JS shared by all            100 kB
-  ├ chunks/299-8c900f5084df0b04.js       45.6 kB
-  ├ chunks/f2953510-b8232929c6ee5aa2.js  52.5 kB
-  └ other shared chunks (total)          1.92 kB
+  ├ chunks/299-14010f510f940cdf.js       45.6 kB
+  ├ chunks/f2953510-2af77641e098a9d0.js  52.5 kB
+  └ other shared chunks (total)          1.91 kB
 
 
 ○  (Static)   prerendered as static content

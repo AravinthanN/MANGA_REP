@@ -75,8 +75,8 @@ const ChapterLayout: React.FC<ChapterLayoutProps> = ({
             Chapter <span>{ChapterNo}</span>
           </h1>
         }
-        {texts.map((text, index) => {
-           if (typeof text === "object" && "component" in text) {
+        {texts?.map((text, index) => {
+           if (text && typeof text === "object" && "component" in text) {
           return <React.Fragment key={index} >{(text as {component:ReactNode}).component}</React.Fragment>;
         }
           const cleanText = NoFrameKeyword

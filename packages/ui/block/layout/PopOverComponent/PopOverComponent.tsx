@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { ReactNode } from 'react';
 import parse from 'html-react-parser';
 
 const PopUp = ({ content }: { content: string | undefined }) => {
@@ -10,6 +10,7 @@ const PopUp = ({ content }: { content: string | undefined }) => {
   return (
     <div className="w-full font-serif text-base leading-relaxed text-gray-800">
       {lines.map((line, index) => {
+        
         const isHtml = /<\/?[a-z][\s\S]*>/i.test(line);
         const isImageLine = line.startsWith('#');
         const imagePath = isImageLine ? line.slice(1) : null;
@@ -25,7 +26,7 @@ const PopUp = ({ content }: { content: string | undefined }) => {
             />
           </div>
         ) : (
-          <p key={index}>{line}</p>
+          <p key={index} >{line}</p>
         );
       })}
     </div>

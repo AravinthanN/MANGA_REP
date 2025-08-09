@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-
+const colors = require('tailwindcss/colors');
+const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
     content: [],
     darkMode: "class",
@@ -67,6 +68,7 @@ module.exports = {
                     300: "#343434",
                 },
             },
+            ...colors
         },
         screens: {
             sm: "576px",
@@ -81,8 +83,11 @@ module.exports = {
                 treeBlock: "5px 10px #888888",
             },
             fontFamily: {
-                sans: "var(--font-sans)",
-                icomoon: "icomoon",
+                ...defaultTheme.fontFamily, // ✅ bring back sans, serif, mono
+      sans: "var(--font-sans)",
+      icomoon: "icomoon",
+      garamond: ['Garamond', 'serif'],
+      merriweather: ['Merriweather', 'serif'],
             },
             dropShadow: {
                 tooltip: "2px 2px 2px rgba(52, 52, 52, 0.5)",

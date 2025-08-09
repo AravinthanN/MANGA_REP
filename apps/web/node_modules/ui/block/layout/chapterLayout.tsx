@@ -76,6 +76,9 @@ const ChapterLayout: React.FC<ChapterLayoutProps> = ({
           </h1>
         }
         {texts.map((text, index) => {
+           if (typeof text === "object" && "component" in text) {
+          return <React.Fragment key={index} >{(text as {component:ReactNode}).component}</React.Fragment>;
+        }
           const cleanText = NoFrameKeyword
             ? text.replace(new RegExp(NoFrameKeyword, 'gi'), '').trim()
             : text;
@@ -90,6 +93,7 @@ const ChapterLayout: React.FC<ChapterLayoutProps> = ({
                 index === 0 ? 'first-paragraph' : 'indent-8'
               }`}
             >
+              
               <PopUp content={cleanText} />
             </div>
           );

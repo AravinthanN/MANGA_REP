@@ -6,7 +6,6 @@ import Head from 'next/head';
 import { useRouter } from 'next/navigation';
 import getChaptersTabs from '../../../helper/chaptersTab';
 
-
 const Home = () => {
   const router = useRouter();
   const goToChapter = (slug: string) => {
@@ -37,9 +36,6 @@ const Home = () => {
                   </button>
                 </li>
               ))}
-
-              <li>📖 1984 by George Orwell</li>
-              <li>📖 The Book Thief by Markus Zusak</li>
             </ul>
           </div>
         </div>

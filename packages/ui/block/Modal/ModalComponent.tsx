@@ -6,7 +6,7 @@ import { createPortal } from 'react-dom';
 const Modal = ({
   isOpen,
   onClose,
-  children
+  children,
 }: {
   isOpen: boolean;
   onClose: () => void;
@@ -27,7 +27,7 @@ const Modal = ({
         {children}
       </div>
     </div>,
-    document.body
+    document.body,
   );
 };
 

@@ -1,1 +1,1 @@
-import 'ui/assets'
+import 'ui/assets';

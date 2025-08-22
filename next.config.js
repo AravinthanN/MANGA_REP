@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
   webpack: (config) => {
@@ -6,7 +6,7 @@ module.exports = {
       ...(config.resolve.alias || {}),
       '@': path.resolve(__dirname, '.'),
       'tailwind-config': path.resolve(__dirname, 'packages/tailwind-config'),
-    }
-    return config
-  }
-}
+    };
+    return config;
+  },
+};

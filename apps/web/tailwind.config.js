@@ -21,15 +21,12 @@
 //   // },
 //   plugins: [],
 // };
-const { getPackageContent } = require('@manga/tailwind-config/helper/getPackageContent');
-
+const {
+  getPackageContent,
+} = require('@manga/tailwind-config/helper/getPackageContent');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    presets: [require("@manga/tailwind-config")],
-    content: [
-        "./app/**/*.{js,jsx,ts,tsx}",
-        ...getPackageContent(["ui",
-        ]),
-    ],
+  presets: [require('@manga/tailwind-config')],
+  content: ['./app/**/*.{js,jsx,ts,tsx}', ...getPackageContent(['ui'])],
 };

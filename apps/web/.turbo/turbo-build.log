@@ -32,10 +32,10 @@
    Collecting build traces ...
 
 Route (app)                              Size     First Load JS
-┌ ○ /                                    984 B           101 kB
+┌ ○ /                                    934 B           101 kB
 ├ ○ /_not-found                          896 B           101 kB
 ├ ○ /chapters                            136 B           100 kB
-└ ƒ /chapters/[...slug]                  67.2 kB         167 kB
+└ ƒ /chapters/[...slug]                  66.9 kB         167 kB
 + First Load JS shared by all            100 kB
   ├ chunks/299-14010f510f940cdf.js       45.6 kB
   ├ chunks/f2953510-2af77641e098a9d0.js  52.5 kB

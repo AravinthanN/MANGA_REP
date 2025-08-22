@@ -63,7 +63,7 @@ const ChapterLayout: React.FC<ChapterLayoutProps> = ({
         {currentBorder && (
           <motion.img
             key={currentBorder} // Ensures fade on change
-            className="fixed inset-0 w-full h-full pointer-events-none select-none z-50 scale-y-[1.25] scale-x-[1.20]"
+            className="fixed inset-0 w-full h-full pointer-events-none select-none z-[9999] scale-y-[1.25] scale-x-[1.20]"
             src={`/images/${currentBorder}`}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

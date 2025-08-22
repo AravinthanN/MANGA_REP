@@ -1,63 +1,63 @@
 import IloDetailsComponent from './IloDetails';
 
 const texts = [
-  { border: 'shadowborder.png', text: `Light` },
-  { border: 'shadowborder.png', type: 'img', path: `Intro.png` },
-  { border: 'shadowborder.png', type: 'img', path: `Intro2.png` },
+  { border: 'shadowBorder.png', text: `Light` },
+  { border: 'shadowBorder.png', type: 'img', path: `Intro.png` },
+  { border: 'shadowBorder.png', type: 'img', path: `Intro2.png` },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: ` it was not a song, it was someone's laugh`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: ` someone who illuminated everything with her bright smile, so bright it could outshine our sun. Legend has it that it was her presence that brightens the ilo`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: ` Ilo, A planet , more like a STAR but habitable, couldnt express its beauty in words ,cant even draw`,
   },
-  { border: 'shadowborder.png', component: <IloDetailsComponent /> },
-  // `shadowborder.png#ilo_day.png`,
-  // `shadowborder.pngFall on Ilo is like Earth's day but far more mesmerizing. Everywhere you look, trees, flowers, and vibrant birds fill the landscape. In the dense forests, extraordinary creatures thrive. Picture a countryside brimming with farms, gardens, and forests under bright, warm weather, balanced perfectly by a cool, refreshing breeze. Its a harmonious, natural paradise.
+  { border: 'shadowBorder.png', component: <IloDetailsComponent /> },
+  // `shadowBorder.png#ilo_day.png`,
+  // `shadowBorder.pngFall on Ilo is like Earth's day but far more mesmerizing. Everywhere you look, trees, flowers, and vibrant birds fill the landscape. In the dense forests, extraordinary creatures thrive. Picture a countryside brimming with farms, gardens, and forests under bright, warm weather, balanced perfectly by a cool, refreshing breeze. Its a harmonious, natural paradise.
   //   `,
-  // `shadowborder.pngIlo in Risen(Night Time in Ilo)`,
-  // `shadowborder.png#ilo_night.png`,
-  // `shadowborder.pngDuring Risen—the equivalent of night—the planet does not just grow dark. It glows with vibrant, aurora-like radiation. Every living being enlarges, except the Iloians (similar to humans on Earth). The wind smells like strawberry ice cream, and you can even see it with the naked eye. Imagine massive trees with colorful, glowing leaves, winds humming like melodies, and butterflies the size of humans. Its like a dreamlike paradise.`,
-  // `shadowborder.pngOne would say its a heaven`,
+  // `shadowBorder.pngIlo in Risen(Night Time in Ilo)`,
+  // `shadowBorder.png#ilo_night.png`,
+  // `shadowBorder.pngDuring Risen—the equivalent of night—the planet does not just grow dark. It glows with vibrant, aurora-like radiation. Every living being enlarges, except the Iloians (similar to humans on Earth). The wind smells like strawberry ice cream, and you can even see it with the naked eye. Imagine massive trees with colorful, glowing leaves, winds humming like melodies, and butterflies the size of humans. Its like a dreamlike paradise.`,
+  // `shadowBorder.pngOne would say its a heaven`,
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: ` Even this heavenly planet wouldnt be heavenly without this little girl, Cho`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: ` A beautiful black and blue butterfly sat on her head, gently moving its wings ,a glazier flame wings and adding to her joyful look.`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: ` She was happily playing with her small sheep.`,
   },
   { border: 'borderflowers.png', type: 'img', path: `choIntro.png` },
 
-  // `shadowborder.png She illuminated everything with her bright smile, so bright it could outshine the sun. A beautiful black and blue butterfly sat on her head, gently moving its wings ,a glazier flame wings and adding to her joyful look. She was happily playing with her small sheep.`,
+  // `shadowBorder.png She illuminated everything with her bright smile, so bright it could outshine the sun. A beautiful black and blue butterfly sat on her head, gently moving its wings ,a glazier flame wings and adding to her joyful look. She was happily playing with her small sheep.`,
 
-  // `shadowborder.pngWELCOME to Planet ILO - it is a unique STAR where life thrives. Unlike Earth's sunrise and nightfall, Ilo experiences Risen and Fall.
+  // `shadowBorder.pngWELCOME to Planet ILO - it is a unique STAR where life thrives. Unlike Earth's sunrise and nightfall, Ilo experiences Risen and Fall.
   //   During Risen—the equivalent of night—the planet does not just grow dark. It glows with vibrant, aurora-like radiation. Every living being enlarges, except the Iloians (similar to humans on Earth). The wind smells like strawberry ice cream, and you can even see it with the naked eye. Imagine massive trees with colorful, glowing leaves, winds humming like melodies, and butterflies the size of humans. Its like a dreamlike paradise.
   //   `,
 
-  // `shadowborder.pngFall on Ilo is like Earth's day but far more mesmerizing. Everywhere you look, trees, flowers, and vibrant birds fill the landscape. In the dense forests, extraordinary creatures thrive. Picture a countryside brimming with farms, gardens, and forests under bright, warm weather, balanced perfectly by a cool, refreshing breeze. Its a harmonious, natural paradise.
+  // `shadowBorder.pngFall on Ilo is like Earth's day but far more mesmerizing. Everywhere you look, trees, flowers, and vibrant birds fill the landscape. In the dense forests, extraordinary creatures thrive. Picture a countryside brimming with farms, gardens, and forests under bright, warm weather, balanced perfectly by a cool, refreshing breeze. Its a harmonious, natural paradise.
   //   `,
 
   // `**Glazier flame- like fire made of ice breeze**`,
   // `**The farm exist in between two forest**`,
   { border: 'borderFlowers.png', text: `Twenty feet behind her` },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: ` a boy , about fifteen years old, stood in a meadow filled with flowers and butterflies. He watched his sister laugh and play while trying to cut the last log from a pile of fifty trees. Even though he was tired, he felt joy seeing her being happy. 
     But his smile slowly faded as he noticed other kids playing together far from there while his sister was alone.
     `,
   },
-  { border: 'shadowborder.png', type: 'img', path: `TheBoy.png` },
-  { border: 'shadowborder.png', text: ` THE  BOY` },
+  { border: 'shadowBorder.png', type: 'img', path: `TheBoy.png` },
+  { border: 'shadowBorder.png', text: ` THE  BOY` },
   {
     border: 'borderFlowers.png',
     type: 'img',
@@ -1018,131 +1018,131 @@ the back of a car asked.`,
     text: `Worker 3: “wait ..wait... hold on a min----—”`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `A strong cry of a baby interrupted the talk.`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `Worker 1: “The baby is born!”, excited`,
   },
-  { border: 'shadowborder.png', text: `They ran up the stairs.` },
+  { border: 'shadowBorder.png', text: `They ran up the stairs.` },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `worker 3 who was cracking  jokes , froze there like she saw a demon`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `Inside the room, the scientist comforted his wife. Her face was filled with joy as she leaned against his chest. He held the baby in his arms, both unable to contain their happiness as they have never even heard the sound of their baby,its their first time hearing their baby's cry. The room was filled with warmth and light and birds and flies.`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `As the room glowed with happiness, the atmosphere outside changed abruptly. Darkness enveloped everything, and a heavy silence fell. Movements slowed, as if time had paused.`,
   },
-  { border: 'shadowborder.png', text: `BLANK… EVERYTHING BLACKED OUT.` },
+  { border: 'shadowBorder.png', text: `BLANK… EVERYTHING BLACKED OUT.` },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `Suddenly, a hurricane came, not a normal one, a hurricane of dead souls swept through the house. These souls, with claws, reached out to grab everyone nearby. In the eye of the Hurricane, the baby floated.`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `Outside the palace, everything appeared normal as if The Hurricane Appeared out of nowhere inside the Home.`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `Moments later,The hurricane gone so does the Home, the inside of the palace was in ruins—blood splattered on the walls, claw marks everywhere, furniture destroyed, and birds broken and lifeless.`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `The scientist and his wife, injured and devastated, searched desperately for the baby.`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `"Did you find my-",the wife asked as she struggling walking downstairs`,
   },
-  { border: 'shadowborder.png', text: `"what are you doing here?", scientist` },
+  { border: 'shadowBorder.png', text: `"what are you doing here?", scientist` },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `"shut uppp.... i have to see my baby",the wife cried`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `"ill find the baby, please dont come down . everything's ruined..you need rest", scientist`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `"i dont need rest, i just need my baby",the wife `,
   },
-  { border: 'shadowborder.png', text: `she fainted` },
-  { border: 'shadowborder.png', text: `"sita", scientist yelled her name` },
+  { border: 'shadowBorder.png', text: `she fainted` },
+  { border: 'shadowBorder.png', text: `"sita", scientist yelled her name` },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `scientist rushed towards her and caught before she fell and both seated`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `"what's happening..where is my baby",she (in lower voice as she had no energy in her)`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `"i dont know...i dont know....im  sorryy...i dont knowww",scientist cried`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `she wipes his tears with hands,he grabbed her tightly`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `He suddenly noticed baby like figure near the fountain`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `"wait here", scientist excitedly rushed towards the fountain`,
   },
-  { border: 'shadowborder.png', text: `The baby is found` },
+  { border: 'shadowBorder.png', text: `The baby is found` },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `But excitement in his face started to fade as the baby doesnt have any movement`,
   },
-  { border: 'shadowborder.png', text: `He just froze there` },
+  { border: 'shadowBorder.png', text: `He just froze there` },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `"what happened... did you find the baby",the wife`,
   },
-  { border: 'shadowborder.png', text: `Ravvv, she called` },
+  { border: 'shadowBorder.png', text: `Ravvv, she called` },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `she got up and rushed towatds them,struggling`,
   },
-  { border: 'shadowborder.png', text: `"what Rav",the wife` },
-  { border: 'shadowborder.png', text: `Then she finally  saw the baby` },
-  { border: 'shadowborder.png', text: `Dead.` },
+  { border: 'shadowBorder.png', text: `"what Rav",the wife` },
+  { border: 'shadowBorder.png', text: `Then she finally  saw the baby` },
+  { border: 'shadowBorder.png', text: `Dead.` },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `Both scientist and his wife broke into pieces.......`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `They both cried so loudly that the sound of their pain was unbearable ,even the ILO started  crying (ILO  have never had rain)`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `Before the baby was born, ILO represented absolute peace, goodness, love, life, and every positive thing imaginable.`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `Even words like "hate," "jealousy," and "greed",,,etc simply did not exist there.`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `Now, everything is about to change, just as the rain became a part of ILO's weather.`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `This rain was painful even to ILO itself. In an attempt to extinguish the rain, which was a manifestation of pure pain, ILO emitted a powerful force.
 The force was so immense that it sent us hurtling back to the present.`,
   },
   {
-    border: 'shadowborder.png',
+    border: 'shadowBorder.png',
     text: `What happened after that will be revealed later.`,
   },
   { border: 'borderFlowers.png', text: ` CUT  TO  PRESENT` },

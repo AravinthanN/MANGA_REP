@@ -25,6 +25,7 @@ const ChapterLayout: React.FC<ChapterLayoutProps> = ({
   const containerRef = useRef<HTMLDivElement | null>(null);
   const blockRefs = useRef<(HTMLDivElement | null)[]>([]);
   const [currentBorder, setCurrentBorder] = useState<string>('');
+  const [currentBorderStyle, setCurrentBorderStyle] = useState<string>('');
 
   // 🔹 Track which text is in view and update border
   useEffect(() => {
@@ -39,6 +40,11 @@ const ChapterLayout: React.FC<ChapterLayoutProps> = ({
             !textItem?.text?.includes(NoFrameKeyword || '')
           ) {
             setCurrentBorder(textItem.border);
+            if (textItem?.borderStyle) {
+              setCurrentBorderStyle(textItem?.borderStyle);
+            } else {
+              setCurrentBorderStyle('');
+            }
           } else {
             setCurrentBorder('');
           }
@@ -63,7 +69,7 @@ const ChapterLayout: React.FC<ChapterLayoutProps> = ({
         {currentBorder && (
           <motion.img
             key={currentBorder} // Ensures fade on change
-            className="fixed inset-0 w-full h-full pointer-events-none select-none z-[9999] scale-y-[1.25] scale-x-[1.20]"
+            className={`fixed inset-0 w-full h-full pointer-events-none select-none z-50 scale-y-[1.25] scale-x-[1.20] ${currentBorderStyle}`}
             src={`/images/${currentBorder}`}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

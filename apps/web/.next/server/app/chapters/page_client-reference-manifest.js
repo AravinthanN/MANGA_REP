@@ -1,0 +1,140 @@
+globalThis.__RSC_MANIFEST = globalThis.__RSC_MANIFEST || {};
+globalThis.__RSC_MANIFEST['/chapters/page'] = {
+  moduleLoading: { prefix: '/_next/', crossOrigin: null },
+  ssrModuleMapping: {
+    411: { '*': { id: '109', name: '*', chunks: [], async: false } },
+    1648: { '*': { id: '3102', name: '*', chunks: [], async: false } },
+    1758: { '*': { id: '268', name: '*', chunks: [], async: false } },
+    2770: { '*': { id: '2410', name: '*', chunks: [], async: false } },
+    4419: { '*': { id: '3063', name: '*', chunks: [], async: false } },
+    4735: { '*': { id: '6629', name: '*', chunks: [], async: false } },
+    4841: { '*': { id: '4603', name: '*', chunks: [], async: false } },
+    4995: { '*': { id: '27', name: '*', chunks: [], async: false } },
+    6414: { '*': { id: '8231', name: '*', chunks: [], async: false } },
+    8162: { '*': { id: '8863', name: '*', chunks: [], async: false } },
+    9500: { '*': { id: '1614', name: '*', chunks: [], async: false } },
+  },
+  edgeSSRModuleMapping: {},
+  clientModules: {
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\node_modules\\.pnpm\\next@15.0.3_react-dom@18.3.1_react@18.3.1__react@18.3.1\\node_modules\\next\\dist\\client\\components\\client-page.js':
+      { id: 4419, name: '*', chunks: [], async: false },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\node_modules\\.pnpm\\next@15.0.3_react-dom@18.3.1_react@18.3.1__react@18.3.1\\node_modules\\next\\dist\\esm\\client\\components\\client-page.js':
+      { id: 4419, name: '*', chunks: [], async: false },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\node_modules\\.pnpm\\next@15.0.3_react-dom@18.3.1_react@18.3.1__react@18.3.1\\node_modules\\next\\dist\\client\\components\\client-segment.js':
+      { id: 4841, name: '*', chunks: [], async: false },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\node_modules\\.pnpm\\next@15.0.3_react-dom@18.3.1_react@18.3.1__react@18.3.1\\node_modules\\next\\dist\\esm\\client\\components\\client-segment.js':
+      { id: 4841, name: '*', chunks: [], async: false },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\node_modules\\.pnpm\\next@15.0.3_react-dom@18.3.1_react@18.3.1__react@18.3.1\\node_modules\\next\\dist\\client\\components\\error-boundary.js':
+      { id: 8162, name: '*', chunks: [], async: false },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\node_modules\\.pnpm\\next@15.0.3_react-dom@18.3.1_react@18.3.1__react@18.3.1\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js':
+      { id: 8162, name: '*', chunks: [], async: false },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\node_modules\\.pnpm\\next@15.0.3_react-dom@18.3.1_react@18.3.1__react@18.3.1\\node_modules\\next\\dist\\client\\components\\layout-router.js':
+      { id: 2770, name: '*', chunks: [], async: false },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\node_modules\\.pnpm\\next@15.0.3_react-dom@18.3.1_react@18.3.1__react@18.3.1\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js':
+      { id: 2770, name: '*', chunks: [], async: false },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\node_modules\\.pnpm\\next@15.0.3_react-dom@18.3.1_react@18.3.1__react@18.3.1\\node_modules\\next\\dist\\client\\components\\not-found-boundary.js':
+      { id: 4735, name: '*', chunks: [], async: false },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\node_modules\\.pnpm\\next@15.0.3_react-dom@18.3.1_react@18.3.1__react@18.3.1\\node_modules\\next\\dist\\esm\\client\\components\\not-found-boundary.js':
+      { id: 4735, name: '*', chunks: [], async: false },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\node_modules\\.pnpm\\next@15.0.3_react-dom@18.3.1_react@18.3.1__react@18.3.1\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js':
+      { id: 1648, name: '*', chunks: [], async: false },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\node_modules\\.pnpm\\next@15.0.3_react-dom@18.3.1_react@18.3.1__react@18.3.1\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js':
+      { id: 1648, name: '*', chunks: [], async: false },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\node_modules\\.pnpm\\next@15.0.3_react-dom@18.3.1_react@18.3.1__react@18.3.1\\node_modules\\next\\dist\\lib\\metadata\\metadata-boundary.js':
+      { id: 411, name: '*', chunks: [], async: false },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\node_modules\\.pnpm\\next@15.0.3_react-dom@18.3.1_react@18.3.1__react@18.3.1\\node_modules\\next\\dist\\esm\\lib\\metadata\\metadata-boundary.js':
+      { id: 411, name: '*', chunks: [], async: false },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\node_modules\\.pnpm\\next@15.0.3_react-dom@18.3.1_react@18.3.1__react@18.3.1\\node_modules\\next\\font\\local\\target.css?{"path":"app\\\\layout.tsx","import":"","arguments":[{"src":"./fonts/GeistVF.woff","variable":"--font-geist-sans","weight":"100 900"}],"variableName":"geistSans"}':
+      {
+        id: 225,
+        name: '*',
+        chunks: ['177', 'static/chunks/app/layout-4f489d3f761c23ca.js'],
+        async: false,
+      },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\node_modules\\.pnpm\\next@15.0.3_react-dom@18.3.1_react@18.3.1__react@18.3.1\\node_modules\\next\\font\\local\\target.css?{"path":"app\\\\layout.tsx","import":"","arguments":[{"src":"./fonts/GeistMonoVF.woff","variable":"--font-geist-mono","weight":"100 900"}],"variableName":"geistMono"}':
+      {
+        id: 8060,
+        name: '*',
+        chunks: ['177', 'static/chunks/app/layout-4f489d3f761c23ca.js'],
+        async: false,
+      },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\packages\\ui\\assets\\global.css':
+      {
+        id: 6433,
+        name: '*',
+        chunks: ['177', 'static/chunks/app/layout-4f489d3f761c23ca.js'],
+        async: false,
+      },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\packages\\ui\\context\\authContext.tsx':
+      {
+        id: 9500,
+        name: '*',
+        chunks: ['177', 'static/chunks/app/layout-4f489d3f761c23ca.js'],
+        async: false,
+      },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\packages\\ui\\context\\frameVisbilityContext.tsx':
+      {
+        id: 1758,
+        name: '*',
+        chunks: ['177', 'static/chunks/app/layout-4f489d3f761c23ca.js'],
+        async: false,
+      },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\packages\\ui\\components\\chapter_1\\chapter1.tsx':
+      {
+        id: 6414,
+        name: '*',
+        chunks: [
+          '952',
+          'static/chunks/952-12e65f3d033841a9.js',
+          '451',
+          'static/chunks/app/chapters/%5B...slug%5D/page-2c1e61a3a0b1f9da.js',
+        ],
+        async: false,
+      },
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\packages\\ui\\block\\layout\\home\\home.tsx':
+      {
+        id: 4995,
+        name: '*',
+        chunks: ['974', 'static/chunks/app/page-54e60a7c298d151b.js'],
+        async: false,
+      },
+  },
+  entryCSSFiles: {
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\apps\\web\\': [],
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\apps\\web\\app\\layout': [
+      'static/css/558eb3690a4f9aee.css',
+    ],
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\apps\\web\\app\\page': [],
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\apps\\web\\app\\chapters\\[...slug]\\page':
+      [],
+    'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\apps\\web\\app\\chapters\\page':
+      [],
+  },
+  rscModuleMapping: {
+    411: { '*': { id: '6841', name: '*', chunks: [], async: false } },
+    1648: { '*': { id: '8354', name: '*', chunks: [], async: false } },
+    1758: { '*': { id: '5328', name: '*', chunks: [], async: false } },
+    2770: { '*': { id: '4950', name: '*', chunks: [], async: false } },
+    4419: { '*': { id: '6931', name: '*', chunks: [], async: false } },
+    4735: { '*': { id: '2841', name: '*', chunks: [], async: false } },
+    4841: { '*': { id: '6783', name: '*', chunks: [], async: false } },
+    4995: { '*': { id: '6345', name: '*', chunks: [], async: false } },
+    6414: { '*': { id: '3468', name: '*', chunks: [], async: false } },
+    6433: { '*': { id: '7329', name: '*', chunks: [], async: false } },
+    8162: { '*': { id: '259', name: '*', chunks: [], async: false } },
+    9500: { '*': { id: '5530', name: '*', chunks: [], async: false } },
+  },
+  edgeRscModuleMapping: {
+    411: { '*': { id: '109', name: '*', chunks: [], async: false } },
+    1648: { '*': { id: '3102', name: '*', chunks: [], async: false } },
+    1758: { '*': { id: '268', name: '*', chunks: [], async: false } },
+    2770: { '*': { id: '2410', name: '*', chunks: [], async: false } },
+    4419: { '*': { id: '3063', name: '*', chunks: [], async: false } },
+    4735: { '*': { id: '6629', name: '*', chunks: [], async: false } },
+    4841: { '*': { id: '4603', name: '*', chunks: [], async: false } },
+    4995: { '*': { id: '27', name: '*', chunks: [], async: false } },
+    6414: { '*': { id: '8231', name: '*', chunks: [], async: false } },
+    8162: { '*': { id: '8863', name: '*', chunks: [], async: false } },
+    9500: { '*': { id: '1614', name: '*', chunks: [], async: false } },
+  },
+};

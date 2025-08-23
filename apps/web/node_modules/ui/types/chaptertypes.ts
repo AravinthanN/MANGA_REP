@@ -6,5 +6,7 @@ export interface TextType {
   text?: string;
   path?: string;
   img?: string;
+  borderStyle?: string;
+  textStyle?: string;
   component?: ReactNode;
 }

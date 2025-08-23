@@ -1,0 +1,270 @@
+(() => {
+  var e = {};
+  ((e.id = 705),
+    (e.ids = [705]),
+    (e.modules = {
+      846: (e) => {
+        'use strict';
+        e.exports = require('next/dist/compiled/next-server/app-page.runtime.prod.js');
+      },
+      9121: (e) => {
+        'use strict';
+        e.exports = require('next/dist/server/app-render/action-async-storage.external.js');
+      },
+      9294: (e) => {
+        'use strict';
+        e.exports = require('next/dist/server/app-render/work-async-storage.external.js');
+      },
+      3033: (e) => {
+        'use strict';
+        e.exports = require('next/dist/server/app-render/work-unit-async-storage.external.js');
+      },
+      3873: (e) => {
+        'use strict';
+        e.exports = require('path');
+      },
+      3522: (e, t, r) => {
+        'use strict';
+        (r.r(t),
+          r.d(t, {
+            GlobalError: () => o.a,
+            __next_app__: () => u,
+            pages: () => p,
+            routeModule: () => c,
+            tree: () => d,
+          }));
+        var n = r(820),
+          i = r(2923),
+          s = r(259),
+          o = r.n(s),
+          a = r(9628),
+          l = {};
+        for (let e in a)
+          0 >
+            [
+              'default',
+              'tree',
+              'pages',
+              'GlobalError',
+              '__next_app__',
+              'routeModule',
+            ].indexOf(e) && (l[e] = () => a[e]);
+        r.d(t, l);
+        let d = [
+            '',
+            {
+              children: [
+                'chapters',
+                {
+                  children: [
+                    '__PAGE__',
+                    {},
+                    {
+                      page: [
+                        () => Promise.resolve().then(r.bind(r, 3269)),
+                        'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\apps\\web\\app\\chapters\\page.tsx',
+                      ],
+                    },
+                  ],
+                },
+                {},
+              ],
+            },
+            {
+              layout: [
+                () => Promise.resolve().then(r.bind(r, 7997)),
+                'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\apps\\web\\app\\layout.tsx',
+              ],
+              'not-found': [
+                () => Promise.resolve().then(r.t.bind(r, 6753, 23)),
+                'next/dist/client/components/not-found-error',
+              ],
+            },
+          ],
+          p = [
+            'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\apps\\web\\app\\chapters\\page.tsx',
+          ],
+          u = { require: r, loadChunk: () => Promise.resolve() },
+          c = new n.AppPageRouteModule({
+            definition: {
+              kind: i.RouteKind.APP_PAGE,
+              page: '/chapters/page',
+              pathname: '/chapters',
+              bundlePath: '',
+              filename: '',
+              appPaths: [],
+            },
+            userland: { loaderTree: d },
+          });
+      },
+      6652: (e, t, r) => {
+        (Promise.resolve().then(r.t.bind(r, 6931, 23)),
+          Promise.resolve().then(r.t.bind(r, 6783, 23)),
+          Promise.resolve().then(r.t.bind(r, 259, 23)),
+          Promise.resolve().then(r.t.bind(r, 4950, 23)),
+          Promise.resolve().then(r.t.bind(r, 2841, 23)),
+          Promise.resolve().then(r.t.bind(r, 8354, 23)),
+          Promise.resolve().then(r.t.bind(r, 6841, 23)));
+      },
+      7148: (e, t, r) => {
+        (Promise.resolve().then(r.t.bind(r, 3063, 23)),
+          Promise.resolve().then(r.t.bind(r, 4603, 23)),
+          Promise.resolve().then(r.t.bind(r, 8863, 23)),
+          Promise.resolve().then(r.t.bind(r, 2410, 23)),
+          Promise.resolve().then(r.t.bind(r, 6629, 23)),
+          Promise.resolve().then(r.t.bind(r, 3102, 23)),
+          Promise.resolve().then(r.t.bind(r, 109, 23)));
+      },
+      1449: (e, t, r) => {
+        (Promise.resolve().then(r.bind(r, 5530)),
+          Promise.resolve().then(r.bind(r, 5328)));
+      },
+      6601: (e, t, r) => {
+        (Promise.resolve().then(r.bind(r, 1614)),
+          Promise.resolve().then(r.bind(r, 268)));
+      },
+      1601: () => {},
+      8049: () => {},
+      1614: (e, t, r) => {
+        'use strict';
+        r.d(t, { AuthContextProvider: () => o });
+        var n = r(6752),
+          i = r(7201);
+        let s = (0, i.createContext)(void 0),
+          o = ({ children: e }) => {
+            let [t, r] = (0, i.useState)(null),
+              [o, a] = (0, i.useState)(!0);
+            (0, i.useEffect)(() => {
+              let e = localStorage.getItem('user');
+              (e && r(JSON.parse(e)), a(!1));
+            }, []);
+            let l = async (e, t) => {
+              let n = { id: '1', name: 'John Doe', email: e };
+              (localStorage.setItem('user', JSON.stringify(n)), r(n));
+            };
+            return (0, n.jsx)(s.Provider, {
+              value: {
+                user: t,
+                login: l,
+                logout: () => {
+                  (localStorage.removeItem('user'), r(null));
+                },
+                loading: o,
+              },
+              children: !o && e,
+            });
+          };
+      },
+      268: (e, t, r) => {
+        'use strict';
+        r.d(t, { FrameVisibilityProvider: () => o });
+        var n = r(6752),
+          i = r(7201);
+        let s = (0, i.createContext)(void 0),
+          o = ({ children: e }) => {
+            let [t, r] = (0, i.useState)(!1);
+            return (0, n.jsx)(s.Provider, {
+              value: { visible: t, setVisible: r },
+              children: e,
+            });
+          };
+      },
+      3269: (e, t, r) => {
+        'use strict';
+        (r.r(t), r.d(t, { default: () => i }));
+        var n = r(132);
+        function i() {
+          return (0, n.jsx)('div', { children: 'oops' });
+        }
+      },
+      7997: (e, t, r) => {
+        'use strict';
+        (r.r(t), r.d(t, { default: () => c, metadata: () => u }));
+        var n = r(132),
+          i = r(8897),
+          s = r.n(i),
+          o = r(8012),
+          a = r.n(o);
+        r(7329);
+        var l = r(5530),
+          d = r(5328);
+        let p = ({ children: e }) =>
+            (0, n.jsx)(l.AuthContextProvider, {
+              children: (0, n.jsx)(d.FrameVisibilityProvider, { children: e }),
+            }),
+          u = {
+            title: 'Create Next App',
+            description: 'Generated by create next app',
+          };
+        function c({ children: e }) {
+          return (0, n.jsxs)('html', {
+            lang: 'en',
+            children: [
+              (0, n.jsx)('head', {
+                children: (0, n.jsx)('meta', {
+                  name: 'viewport',
+                  content: 'width=device-width, initial-scale=1.0',
+                }),
+              }),
+              (0, n.jsx)('body', {
+                className: `${s().variable} ${a().variable} antialiased`,
+                children: (0, n.jsx)(p, { children: e }),
+              }),
+            ],
+          });
+        }
+      },
+      5530: (e, t, r) => {
+        'use strict';
+        r.d(t, { AuthContextProvider: () => i });
+        var n = r(4520);
+        (0, n.registerClientReference)(
+          function () {
+            throw Error(
+              "Attempted to call useAuth() from the server but useAuth is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.",
+            );
+          },
+          'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\packages\\ui\\context\\authContext.tsx',
+          'useAuth',
+        );
+        let i = (0, n.registerClientReference)(
+          function () {
+            throw Error(
+              "Attempted to call AuthContextProvider() from the server but AuthContextProvider is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.",
+            );
+          },
+          'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\packages\\ui\\context\\authContext.tsx',
+          'AuthContextProvider',
+        );
+      },
+      5328: (e, t, r) => {
+        'use strict';
+        r.d(t, { FrameVisibilityProvider: () => i });
+        var n = r(4520);
+        (0, n.registerClientReference)(
+          function () {
+            throw Error(
+              "Attempted to call useFrameVisibility() from the server but useFrameVisibility is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.",
+            );
+          },
+          'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\packages\\ui\\context\\frameVisbilityContext.tsx',
+          'useFrameVisibility',
+        );
+        let i = (0, n.registerClientReference)(
+          function () {
+            throw Error(
+              "Attempted to call FrameVisibilityProvider() from the server but FrameVisibilityProvider is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.",
+            );
+          },
+          'C:\\Users\\Aravinthan\\manga\\MANGA_REP\\packages\\ui\\context\\frameVisbilityContext.tsx',
+          'FrameVisibilityProvider',
+        );
+      },
+      7329: () => {},
+    }));
+  var t = require('../../webpack-runtime.js');
+  t.C(e);
+  var r = (e) => t((t.s = e)),
+    n = t.X(0, [112], () => r(3522));
+  module.exports = n;
+})();

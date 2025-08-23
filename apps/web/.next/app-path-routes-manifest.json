@@ -1,0 +1,6 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/chapters/[...slug]/page": "/chapters/[...slug]",
+  "/page": "/",
+  "/chapters/page": "/chapters"
+}
